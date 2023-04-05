@@ -1,1 +1,0 @@
-export const Component_math_corebase_tesla_constant = 1.6021766208e-19;
