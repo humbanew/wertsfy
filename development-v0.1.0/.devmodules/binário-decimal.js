@@ -1,0 +1,21 @@
+/*
+ *   Copyright (c) 2020 
+ *   All rights reserved.
+ */
+
+var valorDecimal = 0;
+
+var valorString = "101000";
+
+var divisor = valorString.split("" , valorString.length);
+
+for(let y = 0; y < divisor.length; y++) {
+  divisor[y] = parseInt(divisor[y]);
+}
+
+for(let i = 0, u = divisor.length - 1; i < divisor.length; i++, u--) {
+  if(u < 0) {
+    break;
+  }
+  valorDecimal = parseInt(divisor[i]) * 2 ** u + valorDecimal;
+}

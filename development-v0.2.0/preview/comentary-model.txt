@@ -1,0 +1,17 @@
+/**
+ * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+ * 
+ * **``Constante [Constant]``**
+ *  
+ * Retorna o valor da raiz quadrada de 1/2. [_Returns the square root of 1/2._]
+ */
+
+
+/** @emits Not Implemented */
+declare namespace WKarzokOperation { }
+
+/** @emits Not Implemented */
+declare namespace WSpectralsTerminalOperation { }
+
+/** @emits Not Implemented */
+declare namespace WLydrocOperation { }

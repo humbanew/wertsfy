@@ -1,0 +1,22 @@
+{
+  "name": "wertsfy",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts2js": "node ./wtscompiler.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.15",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.1.0",
+    "shelljs": "^0.8.5",
+    "ts-node": "^10.9.1"
+  }
+}

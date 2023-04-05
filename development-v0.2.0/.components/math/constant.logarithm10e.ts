@@ -1,0 +1,1 @@
+export const Component_math_corebase_logarithm10e_constant = 0.4342944819032518;
