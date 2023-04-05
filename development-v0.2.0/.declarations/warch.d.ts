@@ -1,4 +1,4 @@
-import { WConstSqrtCbrtCollectionObject, WConstShortcutsCollectionObject } from "./warch.type";
+import { WConstSqrtCbrtCollectionObject, WConstShortcutsCollectionObject, WITFilter, WITFilterOutput } from "./warch.type";
 
 export declare interface WComponent {
   
