@@ -3,6 +3,7 @@
 ![Open Source Project Badge](https://user-images.githubusercontent.com/59739253/221102346-5af3f295-c91c-4d8d-acce-043bc83a9cc7.png)
 ![Typescript](https://img.shields.io/badge/typescript-black.svg?style=for-the-badge&logo=typescript&logoColor=steelblue)
 ![Javascript](https://img.shields.io/badge/javascript-black.svg?style=for-the-badge&logo=javascript&logoColor=yellow)
+![C/Cpp](https://img.shields.io/badge/cpp-black.svg?style=for-the-badge&logo=cplusplus&logoColor=darkblue)
 
 ___
 
