@@ -1,2 +1,2 @@
 main:
-	gcc wertsfy.cpp -o wertsfy.exe
+	gcc wertsfy.cpp -o .out/wertsfy.exe
