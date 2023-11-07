@@ -25,15 +25,15 @@
   // Estruturas de Dados mais complexas e complementares
 
 // Peças do começo do projeto
-namespace Arithmetic { };
+namespace Aritimeticos { };
 namespace Conversor { };
-namespace LogicConstructor { };
-namespace Formatter { };
-namespace UserInterface { };
-namespace IOManipulations { };
-namespace ApplicationProgramInterface { };
-namespace CommandLineInterface { };
-namespace ExternalLibraries { };
+namespace ConstrutorLogico { };
+namespace Formatador { };
+namespace InterfaceUsuario { };
+namespace ManipulacaoEntradaSaida { };
+namespace InterfaceProgramacaoAplicativos { };
+namespace InterfaceLinhaComando { };
+namespace BibliotecasExternas { };
 namespace Wertsfy { };
 
 int main(void) 
