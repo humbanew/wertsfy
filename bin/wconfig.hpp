@@ -20,6 +20,7 @@
 
 // Estruturas -> wcorebase.hpp
   // Estrutura de Registro
+  // Arrumar estrutura
 typedef struct RegistroComponente 
 { 
   char wpropriedade='W';

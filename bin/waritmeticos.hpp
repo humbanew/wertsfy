@@ -312,9 +312,9 @@ float form_absoluto()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT\0";
   wregistrofnc.wfuncid_tipo='M';
-  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_centena=256;
   wregistrofnc.wfuncid_dezena=0;
   wregistrofnc.wfuncid_unidade=1;
   wregistrofnc.wfuncversaoid;
@@ -329,7 +329,7 @@ float form_aceleracao_angular_mcuv()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=0;
@@ -346,7 +346,7 @@ float form_aceleracao_centripeta_mcu()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=0;
@@ -363,7 +363,7 @@ float form_aceleracao_plano_inclinadox()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=0;
@@ -380,7 +380,7 @@ float form_aceleracao_plano_inclinadoy()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=0;
@@ -397,7 +397,7 @@ float form_aceleracao()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=0;
@@ -414,7 +414,7 @@ float form_alcance_lancamento_vertical()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=0;
@@ -431,7 +431,7 @@ float form_alcance_maximo_lancamento_vertical()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=0;
@@ -448,7 +448,7 @@ float form_altura_maxima_lancamento_vertical()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=0;
@@ -465,7 +465,7 @@ float form_antilogaritmo_base_2()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=1;
@@ -482,7 +482,7 @@ float form_antilogaritmo_base_2_mais_1()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=1;
@@ -499,7 +499,7 @@ float form_antilogaritmo_base_2_menos_1()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=1;
@@ -516,7 +516,7 @@ float form_antilogaritmo_base_10()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=1;
@@ -533,7 +533,7 @@ float form_antilogaritmo_base_10_mais_1()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=1;
@@ -550,7 +550,7 @@ float form_antilogaritmo_base_10_menos_1()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=1;
@@ -567,7 +567,7 @@ float form_antilogaritmo_base_qualquer()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=1;
@@ -584,7 +584,7 @@ float form_antilogaritmo_base_qualquer_mais_1()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid ="ARIT";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
   wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=1;
@@ -2448,653 +2448,1841 @@ float form_kelvin_celsius()
   wregistrofnc.wfuncversaoid_lm_patch=0;  
 
 }
-////////////////////////////////////////////////////////
+
 float form_kelvin_fahrenheit() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_lancamento_horizontal() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_lei_de_coulomb() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_lei_de_lenz() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_lei_de_ohm() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_lei_geral_dos_gases() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_lei_de_newton() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_logaritmo_base_2() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_logaritmo_base_2_mais_1() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_logaritmo_base_2_menos_1() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_logaritmo_base_10() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_logaritmo_base_10_mais_1() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_logaritmo_base_10_menos_1() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_logaritmo_base_qualquer() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=4;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_logaritmo_base_qualquer_mais_1() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=4;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_logaritmo_base_qualquer_menos_1() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=4;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_logaritmo_base_natural() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=4;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_logaritmo_base_natural_mais_1() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=4;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_logaritmo_base_natural_menos_1() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=4;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_logaritmo_periodo() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=4;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_peso_aparente_hidroestatica_hidrodinamica() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=4;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_plano_inclinado_com_atrito() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=4;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_plano_inclinado_sem_atrito() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=4;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_porcentagem() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=5;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_porcentagem_por_1000() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=5;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_porcentagem_por_10000() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=5;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_porcentagem_por_100000() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=5;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_potencia() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=5;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_potencia_mais_1() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=5;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_potencia_menos_1() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=5;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_potencia_de_potencia() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=5;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_potencia_de_potencia_mais_1() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=5;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_potencia_de_potencia_menos_1() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=5;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_potencial_elastico() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=6;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_potencial_eletrico() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=6;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=2;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_potencial_mecanico() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=6;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_principio_fundamental_hidroestatica_hidrodinamica() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=6;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_probabilidade() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=6;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_quadrado_de_punnet() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=6;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_quadrado_de_punnet_extendido() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=6;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_quantidade_conjuntos() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=6;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_raiz_cubica() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=6;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_raiz_decima_potencia() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=6;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_raiz_enesima() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=7;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=2;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_raiz_nona_potencia() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=7;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_raiz_oitava_potencia() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=7;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_raiz_quadrada() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=7;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_raiz_quarta_potencia() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=7;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_raiz_quinta_potencia() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=7;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_raiz_setima_potencia() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=7;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_raiz_sexta_potencia() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=7;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_raiz_de_tres_composta() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=7;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_raiz_de_tres_simples() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=7;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_relacao_euler() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=8;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_rendimento() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=8;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_resto_divisao() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=8;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_secante() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=8;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 } 
 
 float form_secante_hiperbolica() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=8;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_seno() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=8;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_seno_hiperbolico() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=8;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_sinalizacao_octantes() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=8;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_sinalizacao_quadrantes() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=8;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_sistema_de_equacoes() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=8;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_sistema_de_inequacoes() 
 { 
   registro_componente wregistrofnc;
-
+    wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=9;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_sistemas_lineares() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=9;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_soma() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=9;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_subtracao() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=9;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_tangente() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=9;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_tangente_hiperbolica() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=9;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_tempo() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=9;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_teorema_boltzmann() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=9;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_teorema_coulomb() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=9;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_teorema_girard() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=1;
+  wregistrofnc.wfuncid_dezena=9;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_teorema_pitagoras_classico() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_teorema_pitagoras_a_n() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_teorema_pitagoras_b_c_h() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_teorema_pitagoras_m_n() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_teorema_plank() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_teorema_stevin() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_teorema_stirling() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_teorema_tales_de_mileto() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_titulacao() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_torricelli_mcuv() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_trabalho() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_valor_maximo() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_valor_minimo() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_velocidade() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_velocidade_media() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_velocidade_angular_mcu() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_velocidade_angular_mcuv() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_velocidade_linear_mcu() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_velocidade_linear_mcuv() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_cilindro() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_cone() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_cubo() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_dodecaedro() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_esfera() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_hexaedro() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_icosaedro() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_octaedro() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_paralelogramo() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_piramide() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_poligono_formato_lozango() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_poligono_formato_triangulo() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_poligono_formato_retangulo() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_poligono_formato_trapezio() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_prisma() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 float form_volume_tetraedro() 
 { 
   registro_componente wregistrofnc;
-
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='M';
+  wregistrofnc.wfuncid_centena=2;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;  
+ 
 }
 
 #endif // _WARITMETICOS_HPP_
