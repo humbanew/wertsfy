@@ -24,21 +24,5 @@
   // Despreocupação com arquivos muito grandes de definição
   // Estruturas de Dados mais complexas e complementares
 
-// Peças do começo do projeto
-namespace Aritimeticos { };
-namespace Conversor { };
-namespace ConstrutorLogico { };
-namespace Formatador { };
-namespace InterfaceUsuario { };
-namespace ManipulacaoEntradaSaida { };
-namespace InterfaceProgramacaoAplicativos { };
-namespace InterfaceLinhaComando { };
-namespace BibliotecasExternas { };
-namespace Wertsfy { };
-
 int main(void) 
-{
-  
-  return 0;
-
-}
+{ return 0; }

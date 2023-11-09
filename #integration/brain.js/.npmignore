@@ -1,0 +1,30 @@
+# Mac.
+.DS_STORE
+**.DS_STORE
+
+# Node.
+node_modules
+npm-debug.log
+
+# parcel bundler cache
+.cache
+
+# code coverage
+__coverage__
+
+test*.*
+
+.editorconfig
+.jshintrc
+.travis.yml
+.istanbul.yml
+.babelrc
+.idea/
+.vscode/
+test/
+coverage/
+.github/
+.cache/
+__coverage__
+.cache
+.dist/

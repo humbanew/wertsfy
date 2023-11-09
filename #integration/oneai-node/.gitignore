@@ -1,0 +1,8 @@
+node_modules
+lib
+.vscode/settings.json
+.env
+.nyc_output
+coverage
+src/api/.uuid
+.vscode

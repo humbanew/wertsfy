@@ -18,7 +18,18 @@ typedef struct RegistroComponente
   short int wfuncversaoid_lm_major;
   short int wfuncversaoid_lm_minor;
   short int wfuncversaoid_lm_patch;
+  template wfuncmodel <float () { }>
+  struct RegistroComponente *wfuncreg_prox;
+  struct RegistroComponente *wfuncreg_ant;
 } registro_componente;
 
+typedef struct ListaComponentes 
+{ 
+  struct RegistroComponente *wfuncreg_inicio;
+  struct RegistroComponente *wfuncreg_fim;
+  int wfuncreg_tamanho;
+} lista_componentes;
+
+void realiza_registro() { }
 
 #endif // _WCOREBASE_HPP_

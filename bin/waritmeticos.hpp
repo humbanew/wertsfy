@@ -6,8 +6,7 @@
 
 #include "wcorebase.hpp"
 
-namespace Wertsfy{ namespace Aritmeticos{ class constants{ }; } }
-
+namespace Wertsfy{ namespace Aritmeticos{ } }
 
 // Constantes da Biblioteca
 float avogadro() 
