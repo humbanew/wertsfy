@@ -18,7 +18,6 @@ typedef struct RegistroComponente
   short int wfuncversaoid_lm_major;
   short int wfuncversaoid_lm_minor;
   short int wfuncversaoid_lm_patch;
-  template wfuncmodel <float () { }>
   struct RegistroComponente *wfuncreg_prox;
   struct RegistroComponente *wfuncreg_ant;
 } registro_componente;
