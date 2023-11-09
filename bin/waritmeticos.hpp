@@ -4,303 +4,806 @@
 #include <cstdio>
 #include <cstdlib>
 
-#include "wconfig.hpp"
-
+#include "wcorebase.hpp"
 
 namespace Wertsfy{ namespace Aritmeticos{ class constants{ }; } }
 
 
 // Constantes da Biblioteca
 float avogadro() 
-{ 
-  
+{
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+
   return 6.022140857e23;
 
 } 
 
 float cbrt_of01_02() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 0.7071067811865476;
 
 } 
 
 float cbrt_of01_04() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 0.50000000000000;
 
 } 
 
 float cbrt_of01_06() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 0.408248290463863;
 
 } 
 
 float cbrt_of01_08() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 0.3535533905932738;
 
 } 
 
 float cbrt_of01() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 1.00000000000000;
 
 } 
 
 float cbrt_of02() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 1.25992104989487;
 
 } 
 
 float cbrt_of03() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 1.5874010519682;
 
 } 
 
 float cbrt_of04() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=0;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 1.99999999999999;
 
 } 
 
 float cbrt_of05() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 2.23606797749979;
 
 } 
 
 float cbrt_of06() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 2.58198889747161;
 
 } 
 
 float cbrt_of07() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 2.91293118277239;
 
 } 
 
 float cbrt_of08() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 3.26249509498958;
 
 } 
 
 float cbrt_of09() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 3.62449963442055;
 
 } 
 
 float cbrt_of10() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 3.99999999999999;
 
 } 
 
 float coulomb() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 1.60217657e-19;
 
 } 
 
 float euler() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 2.7182818284590452353602874713527;
 
 } 
 
 float euler2() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=2;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 7.38905609893065;
 
 } 
 
 float logarithm2() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=1;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 0.6931471805599453;
 
 } 
 
 float logarithm2e() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 1.4426950408889634;
 
 } 
 
 float logarithm10() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 2.302585092994046;
 
 } 
 
 float logarithm10e() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 0.43429448190325183;
 
 } 
 
 float maxvalue() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 999999999999999;
 
 } 
 
 float minvalue() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return -999999999999999;
 
 } 
 
 float newton() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 0.6931471805599453;
 
 } 
 
 float pi() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 3.1415926535897932384626433832795;
 
 } 
 
 float plank() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 6.62606957e-34;
 
 } 
 
 float sqrt_of01_02() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 0.7937005259840998;
 
 } 
 
 float sqrt_of01_04() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=2;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 0.6299605249474366;
 
 } 
 
 float sqrt_of01_06() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 0.5503212081491045;
 
 } 
 
 float sqrt_of01_08() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 0.500000000000000;
 
 } 
 
 float sqrt_of01() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 1.00000000000000;
 
 } 
 
 float sqrt_of02() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=3;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 1.414213562373095;
 
 } 
 
 float sqrt_of03() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=4;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 1.732050807568877;
 
 } 
 
 float sqrt_of04() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=5;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 2.00000000000000;
 
 } 
 
 float sqrt_of05() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=6;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 2.23606797749979;
 
 } 
 
 float sqrt_of06() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=7;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 2.449489742783178;
 
 } 
 
 float sqrt_of07() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=8;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 2.64575131106459;
 
 } 
 
 float sqrt_of08() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=3;
+  wregistrofnc.wfuncid_unidade=9;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 2.82842712474619;
 
 } 
 
 float sqrt_of09() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=4;
+  wregistrofnc.wfuncid_unidade=0;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 3.00000000000000;
 
 } 
 
 float sqrt_of10() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=4;
+  wregistrofnc.wfuncid_unidade=1;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 3.16227766016838;
 
 } 
 
 float tesla() 
 { 
-
+  registro_componente wregistrofnc;
+  wregistrofnc.wpropriedade;
+  wregistrofnc.wfuncid_categoria='B';
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
+  wregistrofnc.wfuncid_tipo='C';
+  wregistrofnc.wfuncid_centena=0;
+  wregistrofnc.wfuncid_dezena=4;
+  wregistrofnc.wfuncid_unidade=2;
+  wregistrofnc.wfuncversaoid;
+  wregistrofnc.wfuncversaoid_lm_major=1;
+  wregistrofnc.wfuncversaoid_lm_minor=0;
+  wregistrofnc.wfuncversaoid_lm_patch=0;
+ 
   return 1.60217657e-19;
 
 } 
@@ -312,9 +815,9 @@ float form_absoluto()
   registro_componente wregistrofnc;
   wregistrofnc.wpropriedade;
   wregistrofnc.wfuncid_categoria='B';
-  wregistrofnc.wfuncid_categoria_nickid="ARIT\0";
+  wregistrofnc.wfuncid_categoria_nickid="ARIT";
   wregistrofnc.wfuncid_tipo='M';
-  wregistrofnc.wfuncid_centena=256;
+  wregistrofnc.wfuncid_centena=0;
   wregistrofnc.wfuncid_dezena=0;
   wregistrofnc.wfuncid_unidade=1;
   wregistrofnc.wfuncversaoid;

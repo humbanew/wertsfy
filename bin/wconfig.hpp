@@ -18,22 +18,4 @@
 #define WTSFY_DEV_ENV setenv("WTSFY_ENV", "development", 1);
 #define WTSFY_PRD_ENV setenv("WTSFY_ENV", "production", 0);
 
-// Estruturas -> wcorebase.hpp
-  // Estrutura de Registro
-  // Arrumar estrutura
-typedef struct RegistroComponente 
-{ 
-  char wpropriedade='W';
-  char wfuncid_categoria;
-  char* wfuncid_categoria_nickid;
-  char wfuncid_tipo;
-  short int wfuncid_centena;
-  short int wfuncid_dezena;
-  short int wfuncid_unidade;
-  char wfuncversaoid='V';
-  short int wfuncversaoid_lm_major;
-  short int wfuncversaoid_lm_minor;
-  short int wfuncversaoid_lm_patch;
-} registro_componente;
-
 #endif // _WCONFIG_HPP_
