@@ -308,950 +308,1330 @@ float tesla()
 float form_absoluto() 
 { 
   
+  return 0.0;
+
 }
 
 float form_aceleracao_angular_mcuv() 
 { 
   
+  return 0.0;
+
 }
 
 float form_aceleracao_centripeta_mcu() 
 { 
   
+  return 0.0;
+
 }
 
 float form_aceleracao_plano_inclinadox() 
 { 
   
+  return 0.0;
+
 }
 
 float form_aceleracao_plano_inclinadoy() 
 { 
   
+  return 0.0;
+
 }
 
 float form_aceleracao() 
 { 
   
+  return 0.0;
+
 }
 
 float form_alcance_lancamento_vertical() 
 { 
   
+  return 0.0;
+
 }
 
 float form_alcance_maximo_lancamento_vertical() 
 { 
   
+  return 0.0;
+
 }
 
 float form_altura_maxima_lancamento_vertical() 
 { 
   
+  return 0.0;
+
 }
 
 float form_antilogaritmo_base_2() 
 { 
   
+  return 0.0;
+
 }
 
 float form_antilogaritmo_base_2_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_antilogaritmo_base_2_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_antilogaritmo_base_10() 
 { 
   
+  return 0.0;
+
 }
 
 float form_antilogaritmo_base_10_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_antilogaritmo_base_10_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_antilogaritmo_base_qualquer() 
 { 
   
+  return 0.0;
+
 }
 
 float form_antilogaritmo_base_qualquer_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_antilogaritmo_base_qualquer_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_antilogaritmo_base_natural() 
 { 
   
+  return 0.0;
+
 }
 
 float form_antilogaritmo_base_natural_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_antilogaritmo_base_natural_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_apotema_triangulo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arco_cosecante() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arco_cosecante_hiperbolica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arco_cosseno() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arco_cosseno_hiperbolico() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arco_cotangente() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arco_cotangente_hiperbolica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arco_secante() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arco_secante_hiperbolica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arco_seno() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arco_seno_hiperbolico() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arco_tangente() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arco_tangente_hiperbolica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_area_circulo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_area_circunferencia() 
 { 
   
+  return 0.0;
+
 }
 
 float form_area_elipse() 
 { 
   
+  return 0.0;
+
 }
 
 float form_area_esfera() 
 { 
   
+  return 0.0;
+
 }
 
 float form_area_lateral_cilindro() 
 { 
   
+  return 0.0;
+
 }
 
 float form_area_lateral_prisma() 
 { 
   
+  return 0.0;
+
 }
 
 float form_area_lozango() 
 { 
   
+  return 0.0;
+
 }
 
 float form_area_piramide() 
 { 
   
+  return 0.0;
+
 }
 
 float form_area_poligono() 
 { 
   
+  return 0.0;
+
 }
 
 float form_area_quadrado() 
 { 
   
+  return 0.0;
+
 }
 
 float form_area_retangulo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_area_trapezio() 
 { 
   
+  return 0.0;
+
 }
 
 float form_area_triangulo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arranjo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arrendonda_para_baixo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arrendonda_para_cima() 
 { 
   
+  return 0.0;
+
 }
 
 float form_arrendonda_para_decimal_32bits() 
 { 
   
+  return 0.0;
+
 }
 
 float form_atrito() 
 { 
   
+  return 0.0;
+
 }
 
 float form_calor_latente() 
 { 
   
+  return 0.0;
+
 }
 
 float form_calor_sensivel() 
 { 
   
+  return 0.0;
+
 }
 
 float form_celsius_fahrenheit() 
 { 
   
+  return 0.0;
+
 }
 
 float form_celsius_kelvin() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cologaritmo_base_2() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cologaritmo_base_2_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cologaritmo_base_2_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cologaritmo_base_10() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cologaritmo_base_10_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cologaritmo_base_10_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cologaritmo_base_qualquer() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cologaritmo_base_qualquer_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cologaritmo_base_qualquer_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cologaritmo_base_natural() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cologaritmo_base_natural_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cologaritmo_base_natural_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_combinacao() 
 { 
   
+  return 0.0;
+
 }
 
 float form_concentracao() 
 { 
   
+  return 0.0;
+
 }
 
 float form_consumo_de_energia() 
 { 
   
+  return 0.0;
+
 }
 
 float form_contra_forca_eletromotriz() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cosecante() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cosecante_hiperbolica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cosseno() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cosseno_hiperbolico() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cotangente() 
 { 
   
+  return 0.0;
+
 }
 
 float form_cotangente_hiperbolica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_densidade() 
 { 
   
+  return 0.0;
+
 }
 
 float form_densidade_populacional() 
 { 
   
+  return 0.0;
+
 }
 
 float form_determinante_2x2() 
 { 
   
+  return 0.0;
+
 }
 
 float form_determinante_3x3() 
 { 
   
+  return 0.0;
+
 }
 
 float form_determinante_4x4() 
 { 
   
+  return 0.0;
+
 }
 
 float form_diagrama_venn_2_conjuntos() 
 { 
   
+  return 0.0;
+
 }
 
 float form_diagrama_venn_3_conjuntos() 
 { 
   
+  return 0.0;
+
 }
 
 float form_diagrama_venn_4_conjuntos() 
 { 
   
+  return 0.0;
+
 }
 
 float form_diagrama_venn_5_conjuntos() 
 { 
   
+  return 0.0;
+
 }
 
 float form_dilatacao_linear() 
 { 
   
+  return 0.0;
+
 }
 
 float form_dilatacao_superficial() 
 { 
   
+  return 0.0;
+
 }
 
 float form_dilatacao_volumetrica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_divisao() 
 { 
   
+  return 0.0;
+
 }
 
 float form_efeito_fotoeletrico() 
 { 
   
+  return 0.0;
+
 }
 
 float form_efeito_joule() 
 { 
   
+  return 0.0;
+
 }
 
 float form_empuxo_hidrostatica_hidrodinamica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_energia_cinetica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_energia_potencial_elastica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_energia_potencial_gravitacional() 
 { 
   
+  return 0.0;
+
 }
 
 float form_equacao_horaria_aceleracao() 
 { 
   
+  return 0.0;
+
 }
 
 float form_equacao_horaria_aceleracao_mhs() 
 { 
   
+  return 0.0;
+
 }
 
 float form_equacao_horaria_espaco() 
 { 
   
+  return 0.0;
+
 }
 
 float form_equacao_horaria_espaco_mcuv() 
 { 
   
+  return 0.0;
+
 }
 
 float form_equacao_horaria_forca() 
 { 
   
+  return 0.0;
+
 }
 
 float form_equacao_horaria_posicao_mhs() 
 { 
   
+  return 0.0;
+
 }
 
 float form_equacao_horaria_tempo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_equacao_horaria_tempo_espaco() 
 { 
   
+  return 0.0;
+
 }
 
 float form_equacao_horaria_tempo_mcuv() 
 { 
   
+  return 0.0;
+
 }
 
 float form_equacao_horaria_velocidade() 
 { 
   
+  return 0.0;
+
 }
 
 float form_equacao_horaria_velocidade_mhs() 
 { 
   
+  return 0.0;
+
 }
 
 float form_equacao_lagrange() 
 { 
   
+  return 0.0;
+
 }
 
 float form_equacao_torricelli() 
 { 
   
+  return 0.0;
+
 }
 
 float form_escala_geografica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_espaco() 
 { 
   
+  return 0.0;
+
 }
 
 float form_exponencial() 
 { 
   
+  return 0.0;
+
 }
 
 float form_exponencial_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_exponencial_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_fahrenheit_celsius() 
 { 
   
+  return 0.0;
+
 }
 
 float form_fahrenheit_kelvin() 
 { 
   
+  return 0.0;
+
 }
 
 float form_forca_eletromotriz() 
 { 
   
+  return 0.0;
+
 }
 
 float form_forca_gravitacional() 
 { 
   
+  return 0.0;
+
 }
 
 float form_frequencia() 
 { 
   
+  return 0.0;
+
 }
 
 float form_indice_desenvolvimento_humano() 
 { 
   
+  return 0.0;
+
 }
 
 float form_indice_gini() 
 { 
   
+  return 0.0;
+
 }
 
 float form_indice_massa_corporal() 
 { 
   
+  return 0.0;
+
 }
 
 float form_juros_compostos() 
 { 
   
+  return 0.0;
+
 }
 
 float form_juros_simples() 
 { 
   
+  return 0.0;
+
 }
 
 float form_kelvin_celsius() 
 { 
   
+  return 0.0;
+
 }
 
 float form_kelvin_fahrenheit() 
 { 
   
+  return 0.0;
+
 }
 
 float form_lancamento_horizontal() 
 { 
   
+  return 0.0;
+
 }
 
 float form_lei_de_coulomb() 
 { 
   
+  return 0.0;
+
 }
 
 float form_lei_de_lenz() 
 { 
   
+  return 0.0;
+
 }
 
 float form_lei_de_ohm() 
 { 
   
+  return 0.0;
+
 }
 
 float form_lei_geral_dos_gases() 
 { 
   
+  return 0.0;
+
 }
 
 float form_lei_de_newton() 
 { 
   
+  return 0.0;
+
 }
 
 float form_logaritmo_base_2() 
 { 
   
+  return 0.0;
+
 }
 
 float form_logaritmo_base_2_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_logaritmo_base_2_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_logaritmo_base_10() 
 { 
   
+  return 0.0;
+
 }
 
 float form_logaritmo_base_10_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_logaritmo_base_10_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_logaritmo_base_qualquer() 
 { 
   
+  return 0.0;
+
 }
 
 float form_logaritmo_base_qualquer_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_logaritmo_base_qualquer_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_logaritmo_base_natural() 
 { 
   
+  return 0.0;
+
 }
 
 float form_logaritmo_base_natural_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_logaritmo_base_natural_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_logaritmo_periodo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_peso_aparente_hidroestatica_hidrodinamica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_plano_inclinado_com_atrito() 
 { 
   
+  return 0.0;
+
 }
 
 float form_plano_inclinado_sem_atrito() 
 { 
   
+  return 0.0;
+
 }
 
 float form_porcentagem() 
 { 
   
+  return 0.0;
+
 }
 
 float form_porcentagem_por_1000() 
 { 
   
+  return 0.0;
+
 }
 
 float form_porcentagem_por_10000() 
 { 
   
+  return 0.0;
+
 }
 
 float form_porcentagem_por_100000() 
 { 
   
+  return 0.0;
+
 }
 
 float form_potencia() 
 { 
   
+  return 0.0;
+
 }
 
 float form_potencia_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_potencia_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_potencia_de_potencia() 
 { 
   
+  return 0.0;
+
 }
 
 float form_potencia_de_potencia_mais_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_potencia_de_potencia_menos_1() 
 { 
   
+  return 0.0;
+
 }
 
 float form_potencial_elastico() 
 { 
   
+  return 0.0;
+
 }
 
 float form_potencial_eletrico() 
 { 
   
+  return 0.0;
+
 }
 
 float form_potencial_mecanico() 
 { 
   
+  return 0.0;
+
 }
 
 float form_principio_fundamental_hidroestatica_hidrodinamica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_probabilidade() 
 { 
   
+  return 0.0;
+
 }
 
 float form_quadrado_de_punnet() 
 { 
   
+  return 0.0;
+
 }
 
 float form_quadrado_de_punnet_extendido() 
 { 
   
+  return 0.0;
+
 }
 
 float form_quantidade_conjuntos() 
 { 
   
+  return 0.0;
+
 }
 
 float form_raiz_cubica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_raiz_decima_potencia() 
 { 
   
+  return 0.0;
+
 }
 
 float form_raiz_enesima() 
 { 
   
+  return 0.0;
+
 }
 
 float form_raiz_nona_potencia() 
 { 
   
+  return 0.0;
+
 }
 
 float form_raiz_oitava_potencia() 
 { 
   
+  return 0.0;
+
 }
 
 float form_raiz_quadrada() 
 { 
   
+  return 0.0;
+
 }
 
 float form_raiz_quarta_potencia() 
 { 
   
+  return 0.0;
+
 }
 
 float form_raiz_quinta_potencia() 
 { 
   
+  return 0.0;
+
 }
 
 float form_raiz_setima_potencia() 
 { 
   
+  return 0.0;
+
 }
 
 float form_raiz_sexta_potencia() 
 { 
   
+  return 0.0;
+
 }
 
 float form_raiz_de_tres_composta() 
 { 
   
+  return 0.0;
+
 }
 
 float form_raiz_de_tres_simples() 
 { 
   
+  return 0.0;
+
 }
 
 float form_relacao_euler() 
 { 
   
+  return 0.0;
+
 }
 
 float form_rendimento() 
 { 
   
+  return 0.0;
+
 }
 
 float form_resto_divisao() 
 { 
   
+  return 0.0;
+
 }
 
 float form_secante() 
 { 
   
+  return 0.0;
+
 } 
 
 float form_secante_hiperbolica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_seno() 
 { 
   
+  return 0.0;
+
 }
 
 float form_seno_hiperbolico() 
 { 
   
+  return 0.0;
+
 }
 
 float form_sinalizacao_octantes() 
 { 
   
+  return 0.0;
+
 }
 
 float form_sinalizacao_quadrantes() 
 { 
   
+  return 0.0;
+
 }
 
 float form_sistema_de_equacoes() 
 { 
   
+  return 0.0;
+
 }
 
 float form_sistema_de_inequacoes() 
 { 
+
+  return 0.0;
 
 
 }
@@ -1259,221 +1639,309 @@ float form_sistema_de_inequacoes()
 float form_sistemas_lineares() 
 { 
   
+  return 0.0;
+
 }
 
 float form_soma() 
 { 
   
+  return 0.0;
+
 }
 
 float form_subtracao() 
 { 
   
+  return 0.0;
+
 }
 
 float form_tangente() 
 { 
   
+  return 0.0;
+
 }
 
 float form_tangente_hiperbolica() 
 { 
   
+  return 0.0;
+
 }
 
 float form_tempo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_teorema_boltzmann() 
 { 
   
+  return 0.0;
+
 }
 
 float form_teorema_coulomb() 
 { 
   
+  return 0.0;
+
 }
 
 float form_teorema_girard() 
 { 
   
+  return 0.0;
+
 }
 
 float form_teorema_pitagoras_classico() 
 { 
   
+  return 0.0;
+
 }
 
 float form_teorema_pitagoras_a_n() 
 { 
   
+  return 0.0;
+
 }
 
 float form_teorema_pitagoras_b_c_h() 
 { 
   
+  return 0.0;
+
 }
 
 float form_teorema_pitagoras_m_n() 
 { 
   
+  return 0.0;
+
 }
 
 float form_teorema_plank() 
 { 
   
+  return 0.0;
+
 }
 
 float form_teorema_stevin() 
 { 
   
+  return 0.0;
+
 }
 
 float form_teorema_stirling() 
 { 
   
+  return 0.0;
+
 }
 
 float form_teorema_tales_de_mileto() 
 { 
   
+  return 0.0;
+
 }
 
 float form_titulacao() 
 { 
   
+  return 0.0;
+
 }
 
 float form_torricelli_mcuv() 
 { 
   
+  return 0.0;
+
 }
 
 float form_trabalho() 
 { 
   
+  return 0.0;
+
 }
 
 float form_valor_maximo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_valor_minimo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_velocidade() 
 { 
   
+  return 0.0;
+
 }
 
 float form_velocidade_media() 
 { 
   
+  return 0.0;
+
 }
 
 float form_velocidade_angular_mcu() 
 { 
   
+  return 0.0;
+
 }
 
 float form_velocidade_angular_mcuv() 
 { 
   
+  return 0.0;
+
 }
 
 float form_velocidade_linear_mcu() 
 { 
   
+  return 0.0;
+
 }
 
 float form_velocidade_linear_mcuv() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_cilindro() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_cone() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_cubo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_dodecaedro() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_esfera() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_hexaedro() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_icosaedro() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_octaedro() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_paralelogramo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_piramide() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_poligono_formato_lozango() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_poligono_formato_triangulo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_poligono_formato_retangulo() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_poligono_formato_trapezio() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_prisma() 
 { 
   
+  return 0.0;
+
 }
 
 float form_volume_tetraedro() 
 { 
   
+  return 0.0;
+
 }
 
 #endif // _WARITMETICOS_HPP_

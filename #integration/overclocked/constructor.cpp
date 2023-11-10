@@ -1,6 +1,6 @@
 #include <cstdio>
 #include <cstdlib>
 
-struct Fabricator { }
+struct Fabricator { };
 
 int debug(void) { }
