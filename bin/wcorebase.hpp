@@ -6,23 +6,27 @@
 #include <cstring>
 #include <regex.h>
 
+namespace HTML { }
+namespace XML { }
+namespace LEGOBRICKS { }
+
 // Constantes
   // #ffffff
-  #define WTSFY_BRANCO "\033[0;5;255;255;255m"
+  #define WTSFY_COR_BRANCO "\033[0;5;255;255;255m"
   // #31177a
-  #define WTSFY_ROXO_0 "\033[0;5;49;23;122m"
+  #define WTSFY_COR_ROXO "\033[0;5;49;23;122m"
   // #130d63
-  #define WTSFY_AZUL_1 "\033[0;5;19;13;99m"
+  #define WTSFY_COR_AZUL_1 "\033[0;5;19;13;99m"
   // #070150
-  #define WTSFY_AZUL_2 "\033[0;5;7;1;80m"
+  #define WTSFY_COR_AZUL_2 "\033[0;5;7;1;80m"
   // #1f177a
-  #define WTSFY_AZUL_3 "\033[0;5;31;23;122m"
+  #define WTSFY_COR_AZUL_3 "\033[0;5;31;23;122m"
   // #07005c
-  #define WTSFY_AZUL_4 "\033[0;5;7;0;92m"
+  #define WTSFY_COR_AZUL_4 "\033[0;5;7;0;92m"
   // #05003f
-  #define WTSFY_AZUL_5 "\033[0;5;5;0;63m"
+  #define WTSFY_COR_AZUL_5 "\033[0;5;5;0;63m"
   // #030025
-  #define WTSFY_AZUL_6 "\033[0;5;3;0;37m"
+  #define WTSFY_COR_AZUL_6 "\033[0;5;3;0;37m"
 
 typedef struct Registro 
 { 
