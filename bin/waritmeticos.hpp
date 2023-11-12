@@ -6,11 +6,16 @@
 
 #include "wcorebase.hpp"
 
-namespace Wertsfy{ namespace Aritmeticos{ } }
+lista_registros *lr_glossario_aritmeticos = criando_lista_registros("WA");
+
+namespace WERTSFY { namespace ARITMETICOS { } }
 
 // Constantes da Biblioteca
 float avogadro() 
 {
+
+  registro *wreg = criando_registro('B', 'C', "ARIT", 1, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
 
   return 6.022140857e23;
 
@@ -18,6 +23,9 @@ float avogadro()
 
 float cbrt_of01_02() 
 { 
+
+  registro *wreg = criando_registro('B', 'C', "ARIT", 2, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
  
   return 0.7071067811865476;
 
@@ -26,6 +34,9 @@ float cbrt_of01_02()
 float cbrt_of01_04() 
 { 
  
+  registro *wreg = criando_registro('B', 'C', "ARIT", 3, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 0.50000000000000;
 
 } 
@@ -33,6 +44,9 @@ float cbrt_of01_04()
 float cbrt_of01_06() 
 { 
  
+  registro *wreg = criando_registro('B', 'C', "ARIT", 4, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 0.408248290463863;
 
 } 
@@ -40,6 +54,9 @@ float cbrt_of01_06()
 float cbrt_of01_08() 
 { 
  
+  registro *wreg = criando_registro('B', 'C', "ARIT", 5, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 0.3535533905932738;
 
 } 
@@ -47,6 +64,9 @@ float cbrt_of01_08()
 float cbrt_of01() 
 { 
  
+  registro *wreg = criando_registro('B', 'C', "ARIT", 6, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 1.00000000000000;
 
 } 
@@ -54,6 +74,9 @@ float cbrt_of01()
 float cbrt_of02() 
 { 
  
+  registro *wreg = criando_registro('B', 'C', "ARIT", 7, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 1.25992104989487;
 
 } 
@@ -61,6 +84,9 @@ float cbrt_of02()
 float cbrt_of03() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 8, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 1.5874010519682;
 
 } 
@@ -68,6 +94,9 @@ float cbrt_of03()
 float cbrt_of04() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 9, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 1.99999999999999;
 
 } 
@@ -75,6 +104,9 @@ float cbrt_of04()
 float cbrt_of05() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 10, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 2.23606797749979;
 
 } 
@@ -82,6 +114,9 @@ float cbrt_of05()
 float cbrt_of06() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 11, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 2.58198889747161;
 
 } 
@@ -89,6 +124,9 @@ float cbrt_of06()
 float cbrt_of07() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 12, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 2.91293118277239;
 
 } 
@@ -96,6 +134,9 @@ float cbrt_of07()
 float cbrt_of08() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 13, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 3.26249509498958;
 
 } 
@@ -103,6 +144,9 @@ float cbrt_of08()
 float cbrt_of09() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 14, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 3.62449963442055;
 
 } 
@@ -110,6 +154,9 @@ float cbrt_of09()
 float cbrt_of10() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 15, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 3.99999999999999;
 
 } 
@@ -117,6 +164,9 @@ float cbrt_of10()
 float coulomb() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 16, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 1.60217657e-19;
 
 } 
@@ -124,12 +174,18 @@ float coulomb()
 float euler() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 17, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 2.7182818284590452353602874713527;
 
 } 
 
 float euler2() 
 { 
+
+  registro *wreg = criando_registro('B', 'C', "ARIT", 18, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
   
   return 7.38905609893065;
 
@@ -138,6 +194,9 @@ float euler2()
 float logarithm2() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 19, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 0.6931471805599453;
 
 } 
@@ -145,6 +204,9 @@ float logarithm2()
 float logarithm2e() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 20, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 1.4426950408889634;
 
 } 
@@ -152,6 +214,9 @@ float logarithm2e()
 float logarithm10() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 21, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 2.302585092994046;
 
 } 
@@ -159,6 +224,9 @@ float logarithm10()
 float logarithm10e() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 22, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 0.43429448190325183;
 
 } 
@@ -166,6 +234,9 @@ float logarithm10e()
 float maxvalue() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 23, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 999999999999999;
 
 } 
@@ -173,6 +244,9 @@ float maxvalue()
 float minvalue() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 24, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return -999999999999999;
 
 } 
@@ -180,6 +254,9 @@ float minvalue()
 float newton() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 25, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 0.6931471805599453;
 
 } 
@@ -187,6 +264,9 @@ float newton()
 float pi() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 26, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 3.1415926535897932384626433832795;
 
 } 
@@ -194,12 +274,18 @@ float pi()
 float plank() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 27, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 6.62606957e-34;
 
 } 
 
 float sqrt_of01_02() 
 { 
+
+  registro *wreg = criando_registro('B', 'C', "ARIT", 28, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
   
   return 0.7937005259840998;
 
@@ -208,6 +294,9 @@ float sqrt_of01_02()
 float sqrt_of01_04() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 29, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 0.6299605249474366;
 
 } 
@@ -215,6 +304,9 @@ float sqrt_of01_04()
 float sqrt_of01_06() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 30, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 0.5503212081491045;
 
 } 
@@ -222,6 +314,9 @@ float sqrt_of01_06()
 float sqrt_of01_08() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 31, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 0.500000000000000;
 
 } 
@@ -229,6 +324,9 @@ float sqrt_of01_08()
 float sqrt_of01() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 32, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 1.00000000000000;
 
 } 
@@ -236,6 +334,9 @@ float sqrt_of01()
 float sqrt_of02() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 33, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 1.414213562373095;
 
 } 
@@ -243,6 +344,9 @@ float sqrt_of02()
 float sqrt_of03() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 34, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 1.732050807568877;
 
 } 
@@ -250,6 +354,9 @@ float sqrt_of03()
 float sqrt_of04() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 35, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 2.00000000000000;
 
 } 
@@ -257,6 +364,9 @@ float sqrt_of04()
 float sqrt_of05() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 36, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 2.23606797749979;
 
 } 
@@ -264,6 +374,9 @@ float sqrt_of05()
 float sqrt_of06() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 37, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 2.449489742783178;
 
 } 
@@ -271,6 +384,9 @@ float sqrt_of06()
 float sqrt_of07() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 38, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 2.64575131106459;
 
 } 
@@ -278,6 +394,9 @@ float sqrt_of07()
 float sqrt_of08() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 39, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 2.82842712474619;
 
 } 
@@ -285,6 +404,9 @@ float sqrt_of08()
 float sqrt_of09() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 40, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 3.00000000000000;
 
 } 
@@ -292,6 +414,9 @@ float sqrt_of09()
 float sqrt_of10() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 41, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 3.16227766016838;
 
 } 
@@ -299,6 +424,9 @@ float sqrt_of10()
 float tesla() 
 { 
   
+  registro *wreg = criando_registro('B', 'C', "ARIT", 42, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
   return 1.60217657e-19;
 
 } 

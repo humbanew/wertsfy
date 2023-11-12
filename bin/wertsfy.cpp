@@ -2,6 +2,7 @@
 #include <cstdlib>
 
 #include "wconfig.hpp"
+#include "wcorebase.hpp"
 #include "waritmeticos.hpp"
 
 // Os benefícios da reestruturação
@@ -24,5 +25,14 @@
   // Despreocupação com arquivos muito grandes de definição
   // Estruturas de Dados mais complexas e complementares
 
+hashtable *ht_glossario_listas = criando_hashtable(100);
+
 int main(void) 
 { return 0; }
+
+void ui0() { } 
+  void ui1() { }
+    void ui2() { }
+      void ui3() { }
+        void ui4() { }
+          void ui5() { }
