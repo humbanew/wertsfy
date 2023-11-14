@@ -6,4 +6,4 @@
 
 </div>
 
-###### parent projects: calculator_application
+###### parent projects: calculator_application, eclypsuswave_project
