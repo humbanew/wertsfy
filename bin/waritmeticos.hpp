@@ -11,7 +11,7 @@ lista_registros *lr_glossario_aritmeticos = criando_lista_registros("WA");
 namespace WERTSFY { namespace ARITMETICOS { } }
 
 // Constantes da Biblioteca
-float avogadro() 
+float const_avogadro() 
 {
 
   registro *wreg = criando_registro('B', 'C', "ARIT", 1, "1.0.0", "1.0.0", 'R');
@@ -21,7 +21,7 @@ float avogadro()
 
 } 
 
-float cbrt_of01_02() 
+float const_cbrt_of01_02() 
 { 
 
   registro *wreg = criando_registro('B', 'C', "ARIT", 2, "1.0.0", "1.0.0", 'R');
@@ -31,7 +31,7 @@ float cbrt_of01_02()
 
 } 
 
-float cbrt_of01_04() 
+float const_cbrt_of01_04() 
 { 
  
   registro *wreg = criando_registro('B', 'C', "ARIT", 3, "1.0.0", "1.0.0", 'R');
@@ -41,7 +41,7 @@ float cbrt_of01_04()
 
 } 
 
-float cbrt_of01_06() 
+float const_cbrt_of01_06() 
 { 
  
   registro *wreg = criando_registro('B', 'C', "ARIT", 4, "1.0.0", "1.0.0", 'R');
@@ -51,7 +51,7 @@ float cbrt_of01_06()
 
 } 
 
-float cbrt_of01_08() 
+float const_cbrt_of01_08() 
 { 
  
   registro *wreg = criando_registro('B', 'C', "ARIT", 5, "1.0.0", "1.0.0", 'R');
@@ -61,7 +61,7 @@ float cbrt_of01_08()
 
 } 
 
-float cbrt_of01() 
+float const_cbrt_of01() 
 { 
  
   registro *wreg = criando_registro('B', 'C', "ARIT", 6, "1.0.0", "1.0.0", 'R');
@@ -71,7 +71,7 @@ float cbrt_of01()
 
 } 
 
-float cbrt_of02() 
+float const_cbrt_of02() 
 { 
  
   registro *wreg = criando_registro('B', 'C', "ARIT", 7, "1.0.0", "1.0.0", 'R');
@@ -81,7 +81,7 @@ float cbrt_of02()
 
 } 
 
-float cbrt_of03() 
+float const_cbrt_of03() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 8, "1.0.0", "1.0.0", 'R');
@@ -91,7 +91,7 @@ float cbrt_of03()
 
 } 
 
-float cbrt_of04() 
+float const_cbrt_of04() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 9, "1.0.0", "1.0.0", 'R');
@@ -101,7 +101,7 @@ float cbrt_of04()
 
 } 
 
-float cbrt_of05() 
+float const_cbrt_of05() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 10, "1.0.0", "1.0.0", 'R');
@@ -111,7 +111,7 @@ float cbrt_of05()
 
 } 
 
-float cbrt_of06() 
+float const_cbrt_of06() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 11, "1.0.0", "1.0.0", 'R');
@@ -121,7 +121,7 @@ float cbrt_of06()
 
 } 
 
-float cbrt_of07() 
+float const_cbrt_of07() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 12, "1.0.0", "1.0.0", 'R');
@@ -131,7 +131,7 @@ float cbrt_of07()
 
 } 
 
-float cbrt_of08() 
+float const_cbrt_of08() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 13, "1.0.0", "1.0.0", 'R');
@@ -141,7 +141,7 @@ float cbrt_of08()
 
 } 
 
-float cbrt_of09() 
+float const_cbrt_of09() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 14, "1.0.0", "1.0.0", 'R');
@@ -151,7 +151,7 @@ float cbrt_of09()
 
 } 
 
-float cbrt_of10() 
+float const_cbrt_of10() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 15, "1.0.0", "1.0.0", 'R');
@@ -161,7 +161,7 @@ float cbrt_of10()
 
 } 
 
-float coulomb() 
+float const_coulomb() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 16, "1.0.0", "1.0.0", 'R');
@@ -171,7 +171,7 @@ float coulomb()
 
 } 
 
-float euler() 
+float const_euler() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 17, "1.0.0", "1.0.0", 'R');
@@ -181,7 +181,7 @@ float euler()
 
 } 
 
-float euler2() 
+float const_euler2() 
 { 
 
   registro *wreg = criando_registro('B', 'C', "ARIT", 18, "1.0.0", "1.0.0", 'R');
@@ -191,7 +191,7 @@ float euler2()
 
 } 
 
-float logarithm2() 
+float const_logarithm2() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 19, "1.0.0", "1.0.0", 'R');
@@ -201,7 +201,7 @@ float logarithm2()
 
 } 
 
-float logarithm2e() 
+float const_logarithm2e() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 20, "1.0.0", "1.0.0", 'R');
@@ -211,7 +211,7 @@ float logarithm2e()
 
 } 
 
-float logarithm10() 
+float const_logarithm10() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 21, "1.0.0", "1.0.0", 'R');
@@ -221,7 +221,7 @@ float logarithm10()
 
 } 
 
-float logarithm10e() 
+float const_logarithm10e() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 22, "1.0.0", "1.0.0", 'R');
@@ -231,7 +231,7 @@ float logarithm10e()
 
 } 
 
-float maxvalue() 
+float const_maxvalue() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 23, "1.0.0", "1.0.0", 'R');
@@ -241,7 +241,7 @@ float maxvalue()
 
 } 
 
-float minvalue() 
+float const_minvalue() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 24, "1.0.0", "1.0.0", 'R');
@@ -251,7 +251,7 @@ float minvalue()
 
 } 
 
-float newton() 
+float const_newton() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 25, "1.0.0", "1.0.0", 'R');
@@ -261,7 +261,7 @@ float newton()
 
 } 
 
-float pi() 
+float const_pi() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 26, "1.0.0", "1.0.0", 'R');
@@ -271,7 +271,7 @@ float pi()
 
 } 
 
-float plank() 
+float const_plank() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 27, "1.0.0", "1.0.0", 'R');
@@ -281,7 +281,7 @@ float plank()
 
 } 
 
-float sqrt_of01_02() 
+float const_sqrt_of01_02() 
 { 
 
   registro *wreg = criando_registro('B', 'C', "ARIT", 28, "1.0.0", "1.0.0", 'R');
@@ -291,7 +291,7 @@ float sqrt_of01_02()
 
 } 
 
-float sqrt_of01_04() 
+float const_sqrt_of01_04() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 29, "1.0.0", "1.0.0", 'R');
@@ -301,7 +301,7 @@ float sqrt_of01_04()
 
 } 
 
-float sqrt_of01_06() 
+float const_sqrt_of01_06() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 30, "1.0.0", "1.0.0", 'R');
@@ -311,7 +311,7 @@ float sqrt_of01_06()
 
 } 
 
-float sqrt_of01_08() 
+float const_sqrt_of01_08() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 31, "1.0.0", "1.0.0", 'R');
@@ -321,7 +321,7 @@ float sqrt_of01_08()
 
 } 
 
-float sqrt_of01() 
+float const_sqrt_of01() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 32, "1.0.0", "1.0.0", 'R');
@@ -331,7 +331,7 @@ float sqrt_of01()
 
 } 
 
-float sqrt_of02() 
+float const_sqrt_of02() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 33, "1.0.0", "1.0.0", 'R');
@@ -341,7 +341,7 @@ float sqrt_of02()
 
 } 
 
-float sqrt_of03() 
+float const_sqrt_of03() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 34, "1.0.0", "1.0.0", 'R');
@@ -351,7 +351,7 @@ float sqrt_of03()
 
 } 
 
-float sqrt_of04() 
+float const_sqrt_of04() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 35, "1.0.0", "1.0.0", 'R');
@@ -361,7 +361,7 @@ float sqrt_of04()
 
 } 
 
-float sqrt_of05() 
+float const_sqrt_of05() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 36, "1.0.0", "1.0.0", 'R');
@@ -371,7 +371,7 @@ float sqrt_of05()
 
 } 
 
-float sqrt_of06() 
+float const_sqrt_of06() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 37, "1.0.0", "1.0.0", 'R');
@@ -381,7 +381,7 @@ float sqrt_of06()
 
 } 
 
-float sqrt_of07() 
+float const_sqrt_of07() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 38, "1.0.0", "1.0.0", 'R');
@@ -391,7 +391,7 @@ float sqrt_of07()
 
 } 
 
-float sqrt_of08() 
+float const_sqrt_of08() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 39, "1.0.0", "1.0.0", 'R');
@@ -401,7 +401,7 @@ float sqrt_of08()
 
 } 
 
-float sqrt_of09() 
+float const_sqrt_of09() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 40, "1.0.0", "1.0.0", 'R');
@@ -411,7 +411,7 @@ float sqrt_of09()
 
 } 
 
-float sqrt_of10() 
+float const_sqrt_of10() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 41, "1.0.0", "1.0.0", 'R');
@@ -421,7 +421,7 @@ float sqrt_of10()
 
 } 
 
-float tesla() 
+float const_tesla() 
 { 
   
   registro *wreg = criando_registro('B', 'C', "ARIT", 42, "1.0.0", "1.0.0", 'R');
@@ -433,13 +433,19 @@ float tesla()
 
 
 // Código para ser convertido para C++ (comentário dispensável para este método)
-float form_absoluto() 
+float form_absoluto(float n) 
 { 
   
-  return 0.0;
+  registro *wreg = criando_registro('B', 'M', "ARIT", 1, "1.0.0", "1.0.0", 'R');
+  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+
+  return n < 0.0 ? -1.0 * n : n;
 
 }
 
+// export var aceleracaoAngularMCUV = (velocidadeAngular: { inicial: number, final: number}, tempo: { inicial: number, final: number}): number => {
+//   return (velocidadeAngular.final - velocidadeAngular.inicial) / (tempo.final - tempo.inicial);
+// };
 float form_aceleracao_angular_mcuv() 
 { 
   
@@ -447,6 +453,9 @@ float form_aceleracao_angular_mcuv()
 
 }
 
+// export var aceleracaoCentripetaMCU = (velocidade: number, raio: number): number => {
+//   return (velocidade ** 2) / raio;
+// };
 float form_aceleracao_centripeta_mcu() 
 { 
   
@@ -454,6 +463,10 @@ float form_aceleracao_centripeta_mcu()
 
 }
 
+// import { seno } from "./seno.mdl";
+// export var aceleracaoPlanoInclinadoEixoX = (massa: number, gravidade: number, angulo: number): number => {
+//   return massa * gravidade * seno(angulo);
+// };
 float form_aceleracao_plano_inclinadox() 
 { 
   
@@ -461,6 +474,10 @@ float form_aceleracao_plano_inclinadox()
 
 }
 
+// import { cosseno } from "./cosseno.mdl";
+// export var aceleracaoPlanoInclinadoEixoY = (massa: number, gravidade: number, angulo: number): number => {
+//   return massa * gravidade * cosseno(angulo);
+// };
 float form_aceleracao_plano_inclinadoy() 
 { 
   
@@ -468,6 +485,9 @@ float form_aceleracao_plano_inclinadoy()
 
 }
 
+// export var aceleracao = (velocidade: number, tempo: {inicial: number, final: number}): number => {
+//   return velocidade / (tempo.final - tempo.inicial);
+// };
 float form_aceleracao() 
 { 
   
@@ -475,6 +495,10 @@ float form_aceleracao()
 
 }
 
+// import { cosseno } from "./cosseno.mdl";
+// export var alcanceLancamentoVertical = (velocidade: number, tempo: {inicial: number, final: number}, angulo: number): number => {
+//   return velocidade * cosseno(angulo) * (tempo.final - tempo.inicial);
+// };
 float form_alcance_lancamento_vertical() 
 { 
   
@@ -482,6 +506,10 @@ float form_alcance_lancamento_vertical()
 
 }
 
+// import { seno } from "./seno.mdl";
+// export var alcanceMaximoLancamentoVertical = (velocidade: number, angulo: number, gravidade: number): number => {
+//   return (velocidade ** 2 * (seno(angulo) ** 2)) / gravidade;
+// };
 float form_alcance_maximo_lancamento_vertical() 
 { 
   
@@ -489,6 +517,10 @@ float form_alcance_maximo_lancamento_vertical()
 
 }
 
+// import { seno } from "./seno.mdl";
+// export var alturaMaximaLancamentoVertical = (velocidadeInicial: number, gravidade: number, angulo: number): number => {
+//   return (velocidadeInicial ** 2) * ((seno(angulo) ** 2) / 2) * gravidade;
+// };
 float form_altura_maxima_lancamento_vertical() 
 { 
   
@@ -496,6 +528,10 @@ float form_altura_maxima_lancamento_vertical()
 
 }
 
+// import { _logaritmoBase } from "./private/logaritmo.private.mdl";
+// export var antilogaritmoBase2 = (x: number): number => {
+//   return 1 ** _logaritmoBase(2, x);
+// };
 float form_antilogaritmo_base_2() 
 { 
   
@@ -503,6 +539,10 @@ float form_antilogaritmo_base_2()
 
 }
 
+// import { _logaritmoBase } from "./private/logaritmo.private.mdl";
+// export var antilogaritmoBase2Mais1 = (x: number): number => {
+//   return (1 ** _logaritmoBase(2, x)) + 1;
+// };
 float form_antilogaritmo_base_2_mais_1() 
 { 
   
@@ -510,6 +550,10 @@ float form_antilogaritmo_base_2_mais_1()
 
 }
 
+// import { _logaritmoBase } from "./private/logaritmo.private.mdl";
+// export var antilogaritmoBase2Menos1 = (x: number): number => {
+//   return (1 ** _logaritmoBase(2, x)) - 1;
+// };
 float form_antilogaritmo_base_2_menos_1() 
 { 
   
