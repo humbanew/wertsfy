@@ -71,7 +71,7 @@ typedef struct Hashtable
   struct ListaRegistros *glossario_registros;
 } hashtable;
 
-lista_registros *criando_lista_registros(char* $id) 
+lista_registros *cria_lista_registros(char* $id) 
 { 
   lista_registros *wlr;
   wlr->id = $id;
@@ -81,7 +81,7 @@ lista_registros *criando_lista_registros(char* $id)
   return wlr;
 }
 
-hashtable *criando_hashtable(int $tamanho) 
+hashtable *cria_hashtable(int $tamanho) 
 { 
   hashtable *wht;
   wht->tamanho = $tamanho;
@@ -89,7 +89,7 @@ hashtable *criando_hashtable(int $tamanho)
   return wht;
 }
 
-registro *criando_registro(char $categoria, char $tipagem, char* $namespace, int $serial, char* $versaoimplementacao, char* $versaoultimaatualizacao, char $status) 
+registro *cria_registro(char $categoria, char $tipagem, char* $namespace, int $serial, char* $versaoimplementacao, char* $versaoultimaatualizacao, char $status) 
 { 
   registro *wreg = (registro*) malloc(sizeof(registro));
   wreg->wcategoria = $categoria;

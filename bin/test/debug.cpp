@@ -19,6 +19,6 @@ void debug()
 { 
 
   // Testando a função de criação de registro
-  registro *r = criando_registro('B', 'C', "ARIT", 1, "1.0.0", "1.0.0", 'R');
+  registro *r = cria_registro('B', 'C', "ARIT", 1, "1.0.0", "1.0.0", 'R');
 
 }

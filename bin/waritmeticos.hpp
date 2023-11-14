@@ -6,167 +6,181 @@
 
 #include "wcorebase.hpp"
 
-lista_registros *lr_glossario_aritmeticos = criando_lista_registros("WA");
+lista_registros *lr_glossario_aritmeticos = cria_lista_registros("WA");
 
-namespace WERTSFY { namespace ARITMETICOS { } }
-
-// Constantes da Biblioteca
-float const_avogadro() 
-{
-
-  registro *wreg = criando_registro('B', 'C', "ARIT", 1, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
-  return 6.022140857e23;
-
-} 
-
-float const_cbrt_of01_02() 
-{ 
-
-  registro *wreg = criando_registro('B', 'C', "ARIT", 2, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
- 
-  return 0.7071067811865476;
-
-} 
-
-float const_cbrt_of01_04() 
-{ 
- 
-  registro *wreg = criando_registro('B', 'C', "ARIT", 3, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
-  return 0.50000000000000;
-
-} 
-
-float const_cbrt_of01_06() 
-{ 
- 
-  registro *wreg = criando_registro('B', 'C', "ARIT", 4, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
-  return 0.408248290463863;
-
-} 
-
-float const_cbrt_of01_08() 
-{ 
- 
-  registro *wreg = criando_registro('B', 'C', "ARIT", 5, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
-  return 0.3535533905932738;
-
-} 
-
-float const_cbrt_of01() 
-{ 
- 
-  registro *wreg = criando_registro('B', 'C', "ARIT", 6, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
-  return 1.00000000000000;
-
-} 
-
-float const_cbrt_of02() 
-{ 
- 
-  registro *wreg = criando_registro('B', 'C', "ARIT", 7, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
-  return 1.25992104989487;
-
-} 
-
-float const_cbrt_of03() 
+namespace WERTSFY 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 8, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+  namespace BIBLIOTECAS 
+  { 
+    
+    struct Aritmeticos 
+    { 
 
-  return 1.5874010519682;
+      protected:
+        bool NaN = false;
+        void registros() { }
+      
+      public:
+        typedef struct Const_Avogadro
+        {
 
-} 
+          float valor=6.022140857e23;
+          registro *reg=cria_registro('B', 'C', "ARIT", 1, "1.0.0", "1.0.0", 'R');
 
-float const_cbrt_of04() 
-{ 
+        } avogadro;
+
+        typedef struct Const_Cbrt_of01_02
+        {
+
+          float valor=0.7071067811865476;
+          registro *reg=cria_registro('B', 'C', "ARIT", 2, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of01_02;
+
+        typedef struct Const_Cbrt_of01_04
+        {
+
+          float valor=0.50000000000000;
+          registro *reg=cria_registro('B', 'C', "ARIT", 3, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of01_04;
+
+        typedef struct Const_Cbrt_of01_06
+        {
+
+          float valor=0.408248290463863;
+          registro *reg=cria_registro('B', 'C', "ARIT", 4, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of01_06;
+
+        typedef struct Const_Cbrt_of01_08
+        {
+
+          float valor=0.3535533905932738;
+          registro *reg=cria_registro('B', 'C', "ARIT", 5, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of01_08;
+
+        typedef struct Const_Cbrt_of01
+        {
+
+          float valor=1.00000000000000;
+          registro *reg=cria_registro('B', 'C', "ARIT", 6, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of01;
+
+        typedef struct Const_Cbrt_of02
+        {
+
+          float valor=1.25992104989487;
+          registro *reg=cria_registro('B', 'C', "ARIT", 7, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of02;
+
+        typedef struct Const_Cbrt_of03
+        {
+
+          float valor=1.5874010519682;
+          registro *reg=cria_registro('B', 'C', "ARIT", 8, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of03;
+
+        typedef struct Const_Cbrt_of04
+        {
+
+          float valor=1.99999999999999;
+          registro *reg=cria_registro('B', 'C', "ARIT", 9, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of04;
+
+        typedef struct Const_Cbrt_of05
+        {
+
+          float valor=2.23606797749979;
+          registro *reg=cria_registro('B', 'C', "ARIT", 10, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of05;
+
+        typedef struct Const_Cbrt_of06
+        {
+
+          float valor=2.58198889747161;
+          registro *reg=cria_registro('B', 'C', "ARIT", 11, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of06;
+
+        typedef struct Const_Cbrt_of07
+        {
+
+          float valor=2.91293118277239;
+          registro *reg=cria_registro('B', 'C', "ARIT", 12, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of07;
+
+        typedef struct Const_Cbrt_of08
+        {
+
+          float valor=3.26249509498958;
+          registro *reg=cria_registro('B', 'C', "ARIT", 13, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of08;
+
+        typedef struct Const_Cbrt_of09
+        {
+
+          float valor=3.62449963442055;
+          registro *reg=cria_registro('B', 'C', "ARIT", 14, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of09;
+
+        typedef struct Const_Cbrt_of10
+        {
+
+          float valor=3.99999999999999;
+          registro *reg=cria_registro('B', 'C', "ARIT", 15, "1.0.0", "1.0.0", 'R');
+
+        } cbrt_of10;
+
+        typedef struct Const_Coulomb { } coulomb;
+        typedef struct Const_Euler { } euler;
+        typedef struct Const_Euler2 { } euler2;
+        typedef struct Const_Logarithm2 { } logarithm2;
+        typedef struct Const_Logarithm2e { } logarithm2e;
+        typedef struct Const_Logarithm10 { } logarithm10;
+        typedef struct Const_Logarithm10e { } logarithm10e;
+        typedef struct Const_Maxvalue { } maxvalue;
+        typedef struct Const_Minvalue { } minvalue;
+        typedef struct Const_Newton { } newton;
+        typedef struct Const_Pi { } pi;
+        typedef struct Const_Plank { } plank;
+        typedef struct Const_Sqrt_of01_02 { } sqrt_of01_02;
+        typedef struct Const_Sqrt_of01_04 { } sqrt_of01_04;
+        typedef struct Const_Sqrt_of01_06 { } sqrt_of01_06;
+        typedef struct Const_Sqrt_of01_08 { } sqrt_of01_08;
+        typedef struct Const_Sqrt_of01 { } sqrt_of01;
+        typedef struct Const_Sqrt_of02 { } sqrt_of02;
+        typedef struct Const_Sqrt_of03 { } sqrt_of03;
+        typedef struct Const_Sqrt_of04 { } sqrt_of04;
+        typedef struct Const_Sqrt_of05 { } sqrt_of05;
+        typedef struct Const_Sqrt_of06 { } sqrt_of06;
+        typedef struct Const_Sqrt_of07 { } sqrt_of07;
+        typedef struct Const_Sqrt_of08 { } sqrt_of08;
+        typedef struct Const_Sqrt_of09 { } sqrt_of09;
+        typedef struct Const_Sqrt_of10 { } sqrt_of10;
+        typedef struct Const_Tesla { } tesla;
+
+    };
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 9, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
-  return 1.99999999999999;
-
-} 
-
-float const_cbrt_of05() 
-{ 
+  } 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 10, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
+}
 
-  return 2.23606797749979;
-
-} 
-
-float const_cbrt_of06() 
-{ 
-  
-  registro *wreg = criando_registro('B', 'C', "ARIT", 11, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
-  return 2.58198889747161;
-
-} 
-
-float const_cbrt_of07() 
-{ 
-  
-  registro *wreg = criando_registro('B', 'C', "ARIT", 12, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
-  return 2.91293118277239;
-
-} 
-
-float const_cbrt_of08() 
-{ 
-  
-  registro *wreg = criando_registro('B', 'C', "ARIT", 13, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
-  return 3.26249509498958;
-
-} 
-
-float const_cbrt_of09() 
-{ 
-  
-  registro *wreg = criando_registro('B', 'C', "ARIT", 14, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
-  return 3.62449963442055;
-
-} 
-
-float const_cbrt_of10() 
-{ 
-  
-  registro *wreg = criando_registro('B', 'C', "ARIT", 15, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
-  return 3.99999999999999;
-
-} 
-
+// Template de Componentes
+  // Constantes da Biblioteca
 float const_coulomb() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 16, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 1.60217657e-19;
 
 } 
@@ -174,9 +188,6 @@ float const_coulomb()
 float const_euler() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 17, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 2.7182818284590452353602874713527;
 
 } 
@@ -184,9 +195,6 @@ float const_euler()
 float const_euler2() 
 { 
 
-  registro *wreg = criando_registro('B', 'C', "ARIT", 18, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-  
   return 7.38905609893065;
 
 } 
@@ -194,9 +202,6 @@ float const_euler2()
 float const_logarithm2() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 19, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 0.6931471805599453;
 
 } 
@@ -204,9 +209,6 @@ float const_logarithm2()
 float const_logarithm2e() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 20, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 1.4426950408889634;
 
 } 
@@ -214,9 +216,6 @@ float const_logarithm2e()
 float const_logarithm10() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 21, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 2.302585092994046;
 
 } 
@@ -224,9 +223,6 @@ float const_logarithm10()
 float const_logarithm10e() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 22, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 0.43429448190325183;
 
 } 
@@ -234,9 +230,6 @@ float const_logarithm10e()
 float const_maxvalue() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 23, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 999999999999999;
 
 } 
@@ -244,9 +237,6 @@ float const_maxvalue()
 float const_minvalue() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 24, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return -999999999999999;
 
 } 
@@ -254,9 +244,6 @@ float const_minvalue()
 float const_newton() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 25, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 0.6931471805599453;
 
 } 
@@ -264,9 +251,6 @@ float const_newton()
 float const_pi() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 26, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 3.1415926535897932384626433832795;
 
 } 
@@ -274,9 +258,6 @@ float const_pi()
 float const_plank() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 27, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 6.62606957e-34;
 
 } 
@@ -284,9 +265,6 @@ float const_plank()
 float const_sqrt_of01_02() 
 { 
 
-  registro *wreg = criando_registro('B', 'C', "ARIT", 28, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-  
   return 0.7937005259840998;
 
 } 
@@ -294,9 +272,6 @@ float const_sqrt_of01_02()
 float const_sqrt_of01_04() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 29, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 0.6299605249474366;
 
 } 
@@ -304,9 +279,6 @@ float const_sqrt_of01_04()
 float const_sqrt_of01_06() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 30, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 0.5503212081491045;
 
 } 
@@ -314,9 +286,6 @@ float const_sqrt_of01_06()
 float const_sqrt_of01_08() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 31, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 0.500000000000000;
 
 } 
@@ -324,9 +293,6 @@ float const_sqrt_of01_08()
 float const_sqrt_of01() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 32, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 1.00000000000000;
 
 } 
@@ -334,9 +300,6 @@ float const_sqrt_of01()
 float const_sqrt_of02() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 33, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 1.414213562373095;
 
 } 
@@ -344,9 +307,6 @@ float const_sqrt_of02()
 float const_sqrt_of03() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 34, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 1.732050807568877;
 
 } 
@@ -354,9 +314,6 @@ float const_sqrt_of03()
 float const_sqrt_of04() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 35, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 2.00000000000000;
 
 } 
@@ -364,9 +321,6 @@ float const_sqrt_of04()
 float const_sqrt_of05() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 36, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 2.23606797749979;
 
 } 
@@ -374,9 +328,6 @@ float const_sqrt_of05()
 float const_sqrt_of06() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 37, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 2.449489742783178;
 
 } 
@@ -384,9 +335,6 @@ float const_sqrt_of06()
 float const_sqrt_of07() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 38, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 2.64575131106459;
 
 } 
@@ -394,9 +342,6 @@ float const_sqrt_of07()
 float const_sqrt_of08() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 39, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 2.82842712474619;
 
 } 
@@ -404,9 +349,6 @@ float const_sqrt_of08()
 float const_sqrt_of09() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 40, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 3.00000000000000;
 
 } 
@@ -414,9 +356,6 @@ float const_sqrt_of09()
 float const_sqrt_of10() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 41, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 3.16227766016838;
 
 } 
@@ -424,21 +363,38 @@ float const_sqrt_of10()
 float const_tesla() 
 { 
   
-  registro *wreg = criando_registro('B', 'C', "ARIT", 42, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return 1.60217657e-19;
 
 } 
 
 
 // Código para ser convertido para C++ (comentário dispensável para este método)
+
+// From "./private/logaritmo.private.mdl";
+// /////////////////////////////////////////////////////
+// export var _logaritmoBase = (expo: number, x: number): number => {
+//   let exp = expo , scan = x % exp;
+
+//   while(scan != 0) {
+//     scan = scan % exp;
+
+//     if(expo ** exp != x) {   
+//       if(expo ** exp != x) {
+//         if (expo ** exp != x) {
+//           exp += 0.0001;
+//         }
+//         exp += 0.001;
+//       }
+//       exp += 0.01; 
+//     } 
+//     exp += 0.1;
+//   }
+//   return exp;
+// };
+
 float form_absoluto(float n) 
 { 
   
-  registro *wreg = criando_registro('B', 'M', "ARIT", 1, "1.0.0", "1.0.0", 'R');
-  adiciona_final_registro(lr_glossario_aritmeticos, wreg);
-
   return n < 0.0 ? -1.0 * n : n;
 
 }
@@ -561,6 +517,10 @@ float form_antilogaritmo_base_2_menos_1()
 
 }
 
+// import { _logaritmoBase } from "./private/logaritmo.private.mdl"
+// export var antilogaritmoBase10 = (x: number): number => {
+//   return 1 ** _logaritmoBase(10, x);
+// };
 float form_antilogaritmo_base_10() 
 { 
   
@@ -568,6 +528,10 @@ float form_antilogaritmo_base_10()
 
 }
 
+// import { _logaritmoBase } from "./private/logaritmo.private.mdl"
+// export var cologaritmoBase10Mais1 = (x: number): number => {
+//   return (-1 * _logaritmoBase(10, x)) + 1;
+// };
 float form_antilogaritmo_base_10_mais_1() 
 { 
   
@@ -575,6 +539,10 @@ float form_antilogaritmo_base_10_mais_1()
 
 }
 
+// import { _logaritmoBase } from "./private/logaritmo.private.mdl"
+// export var cologaritmoBase10Menos1 = (x: number): number => {
+//   return (-1 * _logaritmoBase(10, x)) - 1;
+// };
 float form_antilogaritmo_base_10_menos_1() 
 { 
   
@@ -582,6 +550,10 @@ float form_antilogaritmo_base_10_menos_1()
 
 }
 
+// import { _logaritmoBase } from "./private/logaritmo.private.mdl"
+// export var antilogaritmoBaseQualquer = (base: number, x: number): number => {
+//   return 1 ** _logaritmoBase(base, x);
+// };
 float form_antilogaritmo_base_qualquer() 
 { 
   
@@ -589,6 +561,10 @@ float form_antilogaritmo_base_qualquer()
 
 }
 
+// import { _logaritmoBase } from "./private/logaritmo.private.mdl";
+// export var antilogaritmoBaseQualquerMais1 = (base: number, x: number): number => {
+//   return (1 ** _logaritmoBase(base, x)) - 1;
+// };
 float form_antilogaritmo_base_qualquer_mais_1() 
 { 
   
@@ -596,6 +572,10 @@ float form_antilogaritmo_base_qualquer_mais_1()
 
 }
 
+// import { _logaritmoBase } from "./private/logaritmo.private.mdl";
+// export var antilogaritmoBaseQualquerMenos1 = (base: number, x: number): number => {
+//   return (1 ** _logaritmoBase(base, x)) - 1;
+// };
 float form_antilogaritmo_base_qualquer_menos_1() 
 { 
   
@@ -603,6 +583,11 @@ float form_antilogaritmo_base_qualquer_menos_1()
 
 }
 
+// import { Aritmeticos } from "../../arithmetic.lib";
+// import { _logaritmoBase } from "./private/logaritmo.private.mdl";
+// export var antilogaritmoNatural = (x: number): number => {
+//   return 1 ** _logaritmoBase(Aritmeticos.Consts.c_euler, x);
+// };
 float form_antilogaritmo_base_natural() 
 { 
   
@@ -610,6 +595,11 @@ float form_antilogaritmo_base_natural()
 
 }
 
+// import { Aritmeticos } from "../../arithmetic.lib";
+// import { _logaritmoBase } from "./private/logaritmo.private.mdl";
+// export var antilogaritmoNaturalMais1 = (x: number): number => {
+// return (1 ** _logaritmoBase(Aritmeticos.Consts.c_euler, x)) + 1;
+// };
 float form_antilogaritmo_base_natural_mais_1() 
 { 
   
@@ -617,6 +607,11 @@ float form_antilogaritmo_base_natural_mais_1()
 
 }
 
+// import { Aritmeticos } from "../../arithmetic.lib";
+// import { _logaritmoBase } from "./private/logaritmo.private.mdl";
+// export var antilogaritmoNaturalMenos1 = (x: number): number => {
+//   return (1 ** _logaritmoBase(Aritmeticos.Consts.c_euler, x)) - 1;
+// };
 float form_antilogaritmo_base_natural_menos_1() 
 { 
   
@@ -624,6 +619,10 @@ float form_antilogaritmo_base_natural_menos_1()
 
 }
 
+// import { raizQuadrada } from "./raiz_quadrada.mdl";
+// export var apotemaTriangulo = (lado: number): number => { 
+//   return (lado ** 2) * raizQuadrada(3) / 2;
+// };
 float form_apotema_triangulo() 
 { 
   
