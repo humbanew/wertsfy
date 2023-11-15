@@ -20,6 +20,7 @@ namespace WERTSFY
       protected:
         bool NaN = false;
         void registros() { }
+        float logaritmo_base() { }
       
       public:
         typedef struct Const_Avogadro
