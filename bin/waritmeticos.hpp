@@ -6,6 +6,8 @@
 
 #include "wcorebase.hpp"
 
+using namespace WERTSFY::COREBASE;
+
 lista_registros *lr_glossario_aritmeticos = cria_lista_registros("WA");
 
 namespace WERTSFY 
@@ -601,6 +603,10 @@ float form_apotema_triangulo()
 
 }
 
+// import { arcoSeno } from "./arco_seno.mdl";
+// export var arcoCosecante = (x: number): number => {
+//   return 1 / arcoSeno(x);  
+// };
 float form_arco_cosecante() 
 { 
   
@@ -608,6 +614,10 @@ float form_arco_cosecante()
 
 }
 
+// import { arcoSeno } from "./arco_seno.mdl";
+// export var arcoCosecanteHiperbolica = (x: number): number => {
+//   return 1 / (1 / arcoSeno(x));  
+// };
 float form_arco_cosecante_hiperbolica() 
 { 
   

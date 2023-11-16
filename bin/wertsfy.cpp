@@ -5,6 +5,8 @@
 #include "wcorebase.hpp"
 #include "waritmeticos.hpp"
 
+using namespace WERTSFY::COREBASE;
+
 // Os benefícios da reestruturação
   // O código mais organizado e com programação orientada a objetos
   // O controle melhor dos tipos primitivos
