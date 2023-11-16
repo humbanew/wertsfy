@@ -18,9 +18,9 @@ namespace WERTSFY
     { 
 
       protected:
-        bool NaN = false;
         void registros() { }
         float logaritmo_base() { }
+        struct Variacao { float inicial, final; };
       
       public:
         typedef struct Const_Avogadro
