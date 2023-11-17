@@ -8,6 +8,7 @@
 #include <windows.h>
 #include <regex>
 
+using namespace std;
 
 // Estrutura 
 namespace WERTSFY 
@@ -15,8 +16,6 @@ namespace WERTSFY
   
   namespace COREBASE 
   { 
-
-    using namespace std;
 
     typedef struct Registro 
     { 
@@ -62,7 +61,6 @@ namespace WERTSFY
       struct Registro *anterior;
 
     } registro;
-
 
     typedef struct ListaRegistros 
     { 
@@ -243,7 +241,6 @@ namespace WERTSFY
       }
 
     }
-
 
   } 
 

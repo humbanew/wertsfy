@@ -5,6 +5,7 @@
 #include "wconfig.hpp"
 #include "wcorebase.hpp"
 #include "waritmeticos.hpp"
+#include "wespectral.hpp"
 
 // prototipos de assinaturas de função
 void debug();

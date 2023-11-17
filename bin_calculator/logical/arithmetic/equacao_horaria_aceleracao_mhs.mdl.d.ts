@@ -1,0 +1,2 @@
+export declare var equacaoHorariaDeAceleracaoMHS: (velocidadeAngular: number, amplitude: number, tempo: number, faseInicial: number) => number;
+//# sourceMappingURL=equacao_horaria_aceleracao_mhs.mdl.d.ts.map

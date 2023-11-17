@@ -1,0 +1,2 @@
+export declare var indiceDesenvolvimentoHumano: (saude: number, educacao: number, renda: number, populacao: number, ppc: number) => number;
+//# sourceMappingURL=indice_desenvolvimento_humano.mdl.d.ts.map

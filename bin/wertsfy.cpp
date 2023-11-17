@@ -3,7 +3,6 @@
 
 #include "wconfig.hpp"
 #include "wcorebase.hpp"
-#include "waritmeticos.hpp"
 
 using namespace WERTSFY::COREBASE;
 
@@ -27,7 +26,7 @@ using namespace WERTSFY::COREBASE;
   // Despreocupação com arquivos muito grandes de definição
   // Estruturas de Dados mais complexas e complementares
 
-hashtable *ht_glossario_listas = cria_hashtable(100);
+static hashtable *ht_glossario_listas = cria_hashtable(100);
 
 int main(void) 
 { return 0; }

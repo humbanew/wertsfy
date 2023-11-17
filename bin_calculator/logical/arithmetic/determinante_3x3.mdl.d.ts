@@ -1,0 +1,2 @@
+export declare var determinante3x3: (a00: number, a01: number, a02: number, a10: number, a11: number, a12: number, a20: number, a21: number, a22: number) => number;
+//# sourceMappingURL=determinante_3x3.mdl.d.ts.map
