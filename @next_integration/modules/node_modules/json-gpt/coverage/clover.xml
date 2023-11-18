@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1682023887706" clover="3.2.0">
+  <project timestamp="1682023887707" name="All files">
+    <metrics statements="82" coveredstatements="78" conditionals="51" coveredconditionals="40" methods="18" coveredmethods="16" elements="151" coveredelements="134" complexity="0" loc="82" ncloc="82" packages="1" files="4" classes="4"/>
+    <file name="solve-chat.ts" path="/workspaces/Json-GPT/solve/solve-chat.ts">
+      <metrics statements="17" coveredstatements="16" conditionals="8" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <line num="87" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="89" count="2" type="stmt"/>
+      <line num="91" count="2" type="stmt"/>
+      <line num="93" count="2" type="stmt"/>
+      <line num="105" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="107" count="1" type="stmt"/>
+      <line num="108" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="109" count="1" type="stmt"/>
+      <line num="121" count="2" type="stmt"/>
+      <line num="125" count="2" type="stmt"/>
+      <line num="127" count="2" type="stmt"/>
+      <line num="128" count="2" type="stmt"/>
+      <line num="130" count="2" type="stmt"/>
+      <line num="132" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="133" count="2" type="stmt"/>
+      <line num="137" count="0" type="stmt"/>
+      <line num="139" count="2" type="stmt"/>
+    </file>
+    <file name="solve-json.ts" path="/workspaces/Json-GPT/solve/solve-json.ts">
+      <metrics statements="24" coveredstatements="23" conditionals="17" coveredconditionals="12" methods="6" coveredmethods="6"/>
+      <line num="19" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="84" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="86" count="2" type="stmt"/>
+      <line num="88" count="2" type="stmt"/>
+      <line num="99" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="101" count="1" type="stmt"/>
+      <line num="102" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="103" count="1" type="stmt"/>
+      <line num="114" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="115" count="2" type="stmt"/>
+      <line num="116" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="117" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="118" count="2" type="stmt"/>
+      <line num="123" count="1" type="stmt"/>
+      <line num="125" count="0" type="stmt"/>
+      <line num="129" count="4" type="cond" truecount="1" falsecount="1"/>
+      <line num="130" count="4" type="stmt"/>
+      <line num="137" count="5" type="stmt"/>
+      <line num="138" count="5" type="stmt"/>
+      <line num="139" count="3" type="stmt"/>
+      <line num="141" count="2" type="stmt"/>
+      <line num="146" count="3" type="stmt"/>
+      <line num="147" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="151" count="1" type="stmt"/>
+    </file>
+    <file name="solve.ts" path="/workspaces/Json-GPT/solve/solve.ts">
+      <metrics statements="36" coveredstatements="36" conditionals="26" coveredconditionals="22" methods="5" coveredmethods="5"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="50" count="9" type="stmt"/>
+      <line num="52" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="53" count="4" type="stmt"/>
+      <line num="54" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="55" count="4" type="stmt"/>
+      <line num="60" count="1" type="stmt"/>
+      <line num="66" count="8" type="stmt"/>
+      <line num="78" count="4" type="stmt"/>
+      <line num="93" count="13" type="cond" truecount="1" falsecount="1"/>
+      <line num="106" count="3" type="stmt"/>
+      <line num="107" count="3" type="stmt"/>
+      <line num="108" count="3" type="stmt"/>
+      <line num="125" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="127" count="9" type="stmt"/>
+      <line num="130" count="9" type="stmt"/>
+      <line num="131" count="9" type="stmt"/>
+      <line num="133" count="1" type="stmt"/>
+      <line num="136" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="138" count="8" type="stmt"/>
+      <line num="139" count="8" type="stmt"/>
+      <line num="140" count="13" type="stmt"/>
+      <line num="141" count="13" type="stmt"/>
+      <line num="146" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="147" count="4" type="stmt"/>
+      <line num="152" count="9" type="cond" truecount="4" falsecount="0"/>
+      <line num="153" count="6" type="stmt"/>
+      <line num="154" count="6" type="stmt"/>
+      <line num="155" count="6" type="stmt"/>
+      <line num="156" count="6" type="cond" truecount="1" falsecount="1"/>
+      <line num="158" count="3" type="stmt"/>
+      <line num="163" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="164" count="3" type="stmt"/>
+      <line num="168" count="1" type="stmt"/>
+      <line num="173" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="174" count="1" type="stmt"/>
+    </file>
+    <file name="utils.ts" path="/workspaces/Json-GPT/solve/utils.ts">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="13" count="4" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -1,0 +1,23 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ai-functions": "^0.1.4",
+    "chatgpt": "^5.2.5",
+    "gpt-tag": "^1.0.2",
+    "gpt-turbo": "^5.0.1",
+    "gpt3": "^2.1.1",
+    "gpt3-cli": "^1.6.0",
+    "gpt4": "^1.0.0",
+    "intellinode": "^1.5.0",
+    "json-gpt": "^1.1.0",
+    "openai": "^4.19.0"
+  }
+}

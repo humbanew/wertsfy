@@ -1,0 +1,13 @@
+{
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "compilerOptions": {
+        "declaration": true,
+        "outDir": "dist",
+        "rootDir": "src"
+    },
+    "exclude": [
+        "dist",
+        "**/*.spec.ts"
+    ],
+    "include": ["src/**/*.ts"],
+}
