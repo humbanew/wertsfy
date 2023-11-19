@@ -5,6 +5,7 @@
 #include <cstdlib>
 
 #include "wcorebase.hpp"
+#include "waritmeticos.io.hpp"
 
 using namespace WERTSFY::COREBASE;
 using namespace WERTSFY::BIBLIOTECAS;
@@ -20,324 +21,342 @@ namespace WERTSFY
     struct Aritmeticos 
     { 
 
-      protected:
-        void registros() { };
-        bool lib_enabled = false;
+      class Props
+      {
+        
+        protected: bool biblioteca_ativada = false;
+
+        public:
+          bool getIsBibliotecaAtivada() 
+          { 
+            return this->biblioteca_ativada;
+          }
+
+          bool setIsBibliotecaAtivada(bool bib_ativ)
+          {
+            this->biblioteca_ativada = bib_ativ;
+          }
+
+          // this->registros();
+
+      };
+    
+      typedef struct Const_avogadro
+      {
+
+        float valor=$Avogadro;
+        registro *reg=cria_registro('B', 'C', "ARIT", 1, "1.0.0", "1.0.0", 'R');
+
+      } avogadro;
+
+      typedef struct Const_cbrt_of01_02
+      {
+
+        float valor=0.7071067811865476;
+        registro *reg=cria_registro('B', 'C', "ARIT", 2, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of01_02;
+
+      typedef struct Const_cbrt_of01_04
+      {
+
+        float valor=0.50000000000000;
+        registro *reg=cria_registro('B', 'C', "ARIT", 3, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of01_04;
+
+      typedef struct Const_cbrt_of01_06
+      {
+
+        float valor=0.408248290463863;
+        registro *reg=cria_registro('B', 'C', "ARIT", 4, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of01_06;
+
+      typedef struct Const_cbrt_of01_08
+      {
+
+        float valor=0.3535533905932738;
+        registro *reg=cria_registro('B', 'C', "ARIT", 5, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of01_08;
+
+      typedef struct Const_cbrt_of01
+      {
+
+        float valor=1.00000000000000;
+        registro *reg=cria_registro('B', 'C', "ARIT", 6, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of01;
+
+      typedef struct Const_cbrt_of02
+      {
+
+        float valor=1.25992104989487;
+        registro *reg=cria_registro('B', 'C', "ARIT", 7, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of02;
+
+      typedef struct Const_cbrt_of03
+      {
+
+        float valor=1.5874010519682;
+        registro *reg=cria_registro('B', 'C', "ARIT", 8, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of03;
+
+      typedef struct Const_cbrt_of04
+      {
+
+        float valor=1.99999999999999;
+        registro *reg=cria_registro('B', 'C', "ARIT", 9, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of04;
+
+      typedef struct Const_cbrt_of05
+      {
+
+        float valor=2.23606797749979;
+        registro *reg=cria_registro('B', 'C', "ARIT", 10, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of05;
+
+      typedef struct Const_cbrt_of06
+      {
+
+        float valor=2.58198889747161;
+        registro *reg=cria_registro('B', 'C', "ARIT", 11, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of06;
+
+      typedef struct Const_cbrt_of07
+      {
+
+        float valor=2.91293118277239;
+        registro *reg=cria_registro('B', 'C', "ARIT", 12, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of07;
+
+      typedef struct Const_cbrt_of08
+      {
+
+        float valor=3.26249509498958;
+        registro *reg=cria_registro('B', 'C', "ARIT", 13, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of08;
+
+      typedef struct Const_cbrt_of09
+      {
+
+        float valor=3.62449963442055;
+        registro *reg=cria_registro('B', 'C', "ARIT", 14, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of09;
+
+      typedef struct Const_cbrt_of10
+      {
+
+        float valor=3.99999999999999;
+        registro *reg=cria_registro('B', 'C', "ARIT", 15, "1.0.0", "1.0.0", 'R');
+
+      } cbrt_of10;
+
+      typedef struct Const_coulomb { 
+
+        float valor=1.60217657e-19;
+        registro *reg=cria_registro('B', 'C', "ARIT", 16, "1.0.0", "1.0.0", 'R');
+
+      } coulomb;
       
-      public:
-        typedef struct Const_avogadro
-        {
+      typedef struct Const_euler { 
 
-          float valor=6.022140857e23;
-          registro *reg=cria_registro('B', 'C', "ARIT", 1, "1.0.0", "1.0.0", 'R');
+        float valor=2.7182818284590452353602874713527;
+        registro *reg=cria_registro('B', 'C', "ARIT", 17, "1.0.0", "1.0.0", 'R');
 
-        } avogadro;
+      } euler;
+      
+      typedef struct Const_euler2 { 
 
-        typedef struct Const_cbrt_of01_02
-        {
+        float valor=7.38905609893065;
+        registro *reg=cria_registro('B', 'C', "ARIT", 18, "1.0.0", "1.0.0", 'R');
 
-          float valor=0.7071067811865476;
-          registro *reg=cria_registro('B', 'C', "ARIT", 2, "1.0.0", "1.0.0", 'R');
+      } euler2;
+      
+      typedef struct Const_logarithm2 { 
 
-        } cbrt_of01_02;
+        float valor=0.6931471805599453;
+        registro *reg=cria_registro('B', 'C', "ARIT", 19, "1.0.0", "1.0.0", 'R');
 
-        typedef struct Const_cbrt_of01_04
-        {
+      } logarithm2;
+      
+      typedef struct Const_logarithm2e { 
 
-          float valor=0.50000000000000;
-          registro *reg=cria_registro('B', 'C', "ARIT", 3, "1.0.0", "1.0.0", 'R');
+        float valor=1.4426950408889634;
+        registro *reg=cria_registro('B', 'C', "ARIT", 20, "1.0.0", "1.0.0", 'R');
 
-        } cbrt_of01_04;
+      } logarithm2e;
+      
+      typedef struct Const_logarithm10 { 
 
-        typedef struct Const_cbrt_of01_06
-        {
+        float valor=2.302585092994046;
+        registro *reg=cria_registro('B', 'C', "ARIT", 21, "1.0.0", "1.0.0", 'R');
 
-          float valor=0.408248290463863;
-          registro *reg=cria_registro('B', 'C', "ARIT", 4, "1.0.0", "1.0.0", 'R');
+      } logarithm10;
+      
+      typedef struct Const_logarithm10e { 
 
-        } cbrt_of01_06;
+        float valor=0.43429448190325183;
+        registro *reg=cria_registro('B', 'C', "ARIT", 22, "1.0.0", "1.0.0", 'R');
 
-        typedef struct Const_cbrt_of01_08
-        {
+      } logarithm10e;
+      
+      typedef struct Const_maxvalue { 
 
-          float valor=0.3535533905932738;
-          registro *reg=cria_registro('B', 'C', "ARIT", 5, "1.0.0", "1.0.0", 'R');
+        float valor=999999999999999;
+        registro *reg=cria_registro('B', 'C', "ARIT", 23, "1.0.0", "1.0.0", 'R');
 
-        } cbrt_of01_08;
+      } maxvalue;
+      
+      typedef struct Const_minvalue { 
 
-        typedef struct Const_cbrt_of01
-        {
+        float valor=-999999999999999;
+        registro *reg=cria_registro('B', 'C', "ARIT", 24, "1.0.0", "1.0.0", 'R');
 
-          float valor=1.00000000000000;
-          registro *reg=cria_registro('B', 'C', "ARIT", 6, "1.0.0", "1.0.0", 'R');
+      } minvalue;
+      
+      typedef struct Const_newton { 
 
-        } cbrt_of01;
+        float valor=0.6931471805599453;
+        registro *reg=cria_registro('B', 'C', "ARIT", 25, "1.0.0", "1.0.0", 'R');
 
-        typedef struct Const_cbrt_of02
-        {
+      } newton;
+      
+      typedef struct Const_pi { 
 
-          float valor=1.25992104989487;
-          registro *reg=cria_registro('B', 'C', "ARIT", 7, "1.0.0", "1.0.0", 'R');
+        float valor=3.1415926535897932384626433832795;
+        registro *reg=cria_registro('B', 'C', "ARIT", 26, "1.0.0", "1.0.0", 'R');
 
-        } cbrt_of02;
+      } pi;
+      
+      typedef struct Const_plank { 
 
-        typedef struct Const_cbrt_of03
-        {
+        float valor=6.62606957e-34;
+        registro *reg=cria_registro('B', 'C', "ARIT", 27, "1.0.0", "1.0.0", 'R');
 
-          float valor=1.5874010519682;
-          registro *reg=cria_registro('B', 'C', "ARIT", 8, "1.0.0", "1.0.0", 'R');
+      } plank;
+      
+      typedef struct Const_sqrt_of01_02 { 
 
-        } cbrt_of03;
+        float valor=0.7937005259840998;
+        registro *reg=cria_registro('B', 'C', "ARIT", 28, "1.0.0", "1.0.0", 'R');
 
-        typedef struct Const_cbrt_of04
-        {
+      } sqrt_of01_02;
+      
+      typedef struct Const_sqrt_of01_04 { 
 
-          float valor=1.99999999999999;
-          registro *reg=cria_registro('B', 'C', "ARIT", 9, "1.0.0", "1.0.0", 'R');
+        float valor=0.6299605249474366;
+        registro *reg=cria_registro('B', 'C', "ARIT", 29, "1.0.0", "1.0.0", 'R');
 
-        } cbrt_of04;
+      } sqrt_of01_04;
+      
+      typedef struct Const_sqrt_of01_06 { 
 
-        typedef struct Const_cbrt_of05
-        {
+        float valor=0.5503212081491045;
+        registro *reg=cria_registro('B', 'C', "ARIT", 30, "1.0.0", "1.0.0", 'R');
 
-          float valor=2.23606797749979;
-          registro *reg=cria_registro('B', 'C', "ARIT", 10, "1.0.0", "1.0.0", 'R');
+      } sqrt_of01_06;
+      
+      typedef struct Const_sqrt_of01_08 {
 
-        } cbrt_of05;
+        float valor=0.500000000000000;
+        registro *reg=cria_registro('B', 'C', "ARIT", 31, "1.0.0", "1.0.0", 'R');
 
-        typedef struct Const_cbrt_of06
-        {
+      } sqrt_of01_08;
+      
+      typedef struct Const_sqrt_of01 { 
 
-          float valor=2.58198889747161;
-          registro *reg=cria_registro('B', 'C', "ARIT", 11, "1.0.0", "1.0.0", 'R');
+        float valor=1.00000000000000;
+        registro *reg=cria_registro('B', 'C', "ARIT", 32, "1.0.0", "1.0.0", 'R');
 
-        } cbrt_of06;
+      } sqrt_of01;
+      
+      typedef struct Const_sqrt_of02 { 
 
-        typedef struct Const_cbrt_of07
-        {
+        float valor=1.414213562373095;
+        registro *reg=cria_registro('B', 'C', "ARIT", 33, "1.0.0", "1.0.0", 'R');
 
-          float valor=2.91293118277239;
-          registro *reg=cria_registro('B', 'C', "ARIT", 12, "1.0.0", "1.0.0", 'R');
+      } sqrt_of02;
+      
+      typedef struct Const_sqrt_of03 {
 
-        } cbrt_of07;
+        float valor=1.732050807568877;
+        registro *reg=cria_registro('B', 'C', "ARIT", 34, "1.0.0", "1.0.0", 'R');
 
-        typedef struct Const_cbrt_of08
-        {
+      } sqrt_of03;
+      
+      typedef struct Const_sqrt_of04 { 
 
-          float valor=3.26249509498958;
-          registro *reg=cria_registro('B', 'C', "ARIT", 13, "1.0.0", "1.0.0", 'R');
+        float valor=2.00000000000000;
+        registro *reg=cria_registro('B', 'C', "ARIT", 35, "1.0.0", "1.0.0", 'R');
 
-        } cbrt_of08;
+      } sqrt_of04;
+      
+      typedef struct Const_sqrt_of05 { 
 
-        typedef struct Const_cbrt_of09
-        {
+        float valor=2.23606797749979;
+        registro *reg=cria_registro('B', 'C', "ARIT", 36, "1.0.0", "1.0.0", 'R');
 
-          float valor=3.62449963442055;
-          registro *reg=cria_registro('B', 'C', "ARIT", 14, "1.0.0", "1.0.0", 'R');
+      } sqrt_of05;
+      
+      typedef struct Const_sqrt_of06 { 
 
-        } cbrt_of09;
+        float valor=2.449489742783178;
+        registro *reg=cria_registro('B', 'C', "ARIT", 37, "1.0.0", "1.0.0", 'R');
 
-        typedef struct Const_cbrt_of10
-        {
+      } sqrt_of06;
+      
+      typedef struct Const_sqrt_of07 { 
 
-          float valor=3.99999999999999;
-          registro *reg=cria_registro('B', 'C', "ARIT", 15, "1.0.0", "1.0.0", 'R');
+        float valor=2.64575131106459;
+        registro *reg=cria_registro('B', 'C', "ARIT", 38, "1.0.0", "1.0.0", 'R');
 
-        } cbrt_of10;
+      } sqrt_of07;
+      
+      typedef struct Const_sqrt_of08 { 
 
-        typedef struct Const_coulomb { 
+        float valor=2.82842712474619;
+        registro *reg=cria_registro('B', 'C', "ARIT", 39, "1.0.0", "1.0.0", 'R');
 
-          float valor=1.60217657e-19;
-          registro *reg=cria_registro('B', 'C', "ARIT", 16, "1.0.0", "1.0.0", 'R');
+      } sqrt_of08;
+      
+      typedef struct Const_sqrt_of09 { 
 
-        } coulomb;
-        
-        typedef struct Const_euler { 
+        float valor=3.00000000000000;
+        registro *reg=cria_registro('B', 'C', "ARIT", 40, "1.0.0", "1.0.0", 'R');
 
-          float valor=2.7182818284590452353602874713527;
-          registro *reg=cria_registro('B', 'C', "ARIT", 17, "1.0.0", "1.0.0", 'R');
+      } sqrt_of09;
+      
+      typedef struct Const_sqrt_of10 { 
 
-        } euler;
-        
-        typedef struct Const_euler2 { 
+        float valor=3.16227766016838;
+        registro *reg=cria_registro('B', 'C', "ARIT", 41, "1.0.0", "1.0.0", 'R');
 
-          float valor=7.38905609893065;
-          registro *reg=cria_registro('B', 'C', "ARIT", 18, "1.0.0", "1.0.0", 'R');
+      } sqrt_of10;
+      
+      typedef struct Const_tesla { 
 
-        } euler2;
-        
-        typedef struct Const_logarithm2 { 
+        float valor=1.60217657e-19;
+        registro *reg=cria_registro('B', 'C', "ARIT", 42, "1.0.0", "1.0.0", 'R');
 
-          float valor=0.6931471805599453;
-          registro *reg=cria_registro('B', 'C', "ARIT", 19, "1.0.0", "1.0.0", 'R');
+      } tesla;
 
-        } logarithm2;
-        
-        typedef struct Const_logarithm2e { 
-
-          float valor=1.4426950408889634;
-          registro *reg=cria_registro('B', 'C', "ARIT", 20, "1.0.0", "1.0.0", 'R');
-
-        } logarithm2e;
-        
-        typedef struct Const_logarithm10 { 
-
-          float valor=2.302585092994046;
-          registro *reg=cria_registro('B', 'C', "ARIT", 21, "1.0.0", "1.0.0", 'R');
-
-        } logarithm10;
-        
-        typedef struct Const_logarithm10e { 
-
-          float valor=0.43429448190325183;
-          registro *reg=cria_registro('B', 'C', "ARIT", 22, "1.0.0", "1.0.0", 'R');
-
-        } logarithm10e;
-        
-        typedef struct Const_maxvalue { 
-
-          float valor=999999999999999;
-          registro *reg=cria_registro('B', 'C', "ARIT", 23, "1.0.0", "1.0.0", 'R');
-
-        } maxvalue;
-        
-        typedef struct Const_minvalue { 
-
-          float valor=-999999999999999;
-          registro *reg=cria_registro('B', 'C', "ARIT", 24, "1.0.0", "1.0.0", 'R');
-
-        } minvalue;
-        
-        typedef struct Const_newton { 
-
-          float valor=0.6931471805599453;
-          registro *reg=cria_registro('B', 'C', "ARIT", 25, "1.0.0", "1.0.0", 'R');
-
-        } newton;
-        
-        typedef struct Const_pi { 
-
-          float valor=3.1415926535897932384626433832795;
-          registro *reg=cria_registro('B', 'C', "ARIT", 26, "1.0.0", "1.0.0", 'R');
-
-        } pi;
-        
-        typedef struct Const_plank { 
-
-          float valor=6.62606957e-34;
-          registro *reg=cria_registro('B', 'C', "ARIT", 27, "1.0.0", "1.0.0", 'R');
-
-        } plank;
-        
-        typedef struct Const_sqrt_of01_02 { 
-
-          float valor=0.7937005259840998;
-          registro *reg=cria_registro('B', 'C', "ARIT", 28, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of01_02;
-        
-        typedef struct Const_sqrt_of01_04 { 
-
-          float valor=0.6299605249474366;
-          registro *reg=cria_registro('B', 'C', "ARIT", 29, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of01_04;
-        
-        typedef struct Const_sqrt_of01_06 { 
-
-          float valor=0.5503212081491045;
-          registro *reg=cria_registro('B', 'C', "ARIT", 30, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of01_06;
-        
-        typedef struct Const_sqrt_of01_08 {
-
-          float valor=0.500000000000000;
-          registro *reg=cria_registro('B', 'C', "ARIT", 31, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of01_08;
-        
-        typedef struct Const_sqrt_of01 { 
-
-          float valor=1.00000000000000;
-          registro *reg=cria_registro('B', 'C', "ARIT", 32, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of01;
-        
-        typedef struct Const_sqrt_of02 { 
-
-          float valor=1.414213562373095;
-          registro *reg=cria_registro('B', 'C', "ARIT", 33, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of02;
-        
-        typedef struct Const_sqrt_of03 {
-
-          float valor=1.732050807568877;
-          registro *reg=cria_registro('B', 'C', "ARIT", 34, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of03;
-        
-        typedef struct Const_sqrt_of04 { 
-
-          float valor=2.00000000000000;
-          registro *reg=cria_registro('B', 'C', "ARIT", 35, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of04;
-        
-        typedef struct Const_sqrt_of05 { 
-
-          float valor=2.23606797749979;
-          registro *reg=cria_registro('B', 'C', "ARIT", 36, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of05;
-        
-        typedef struct Const_sqrt_of06 { 
-
-          float valor=2.449489742783178;
-          registro *reg=cria_registro('B', 'C', "ARIT", 37, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of06;
-        
-        typedef struct Const_sqrt_of07 { 
-
-          float valor=2.64575131106459;
-          registro *reg=cria_registro('B', 'C', "ARIT", 38, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of07;
-        
-        typedef struct Const_sqrt_of08 { 
-
-          float valor=2.82842712474619;
-          registro *reg=cria_registro('B', 'C', "ARIT", 39, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of08;
-        
-        typedef struct Const_sqrt_of09 { 
-
-          float valor=3.00000000000000;
-          registro *reg=cria_registro('B', 'C', "ARIT", 40, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of09;
-        
-        typedef struct Const_sqrt_of10 { 
-
-          float valor=3.16227766016838;
-          registro *reg=cria_registro('B', 'C', "ARIT", 41, "1.0.0", "1.0.0", 'R');
-
-        } sqrt_of10;
-        
-        typedef struct Const_tesla { 
-
-          float valor=1.60217657e-19;
-          registro *reg=cria_registro('B', 'C', "ARIT", 42, "1.0.0", "1.0.0", 'R');
-
-        } tesla;
 
     };
-  
-  } 
-  
+
+
+  }
+
+
 }
 
 struct Form_absoluto {};
