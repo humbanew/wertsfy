@@ -52,7 +52,7 @@ namespace WERTSFY
       typedef struct Const_cbrt_of01_02
       {
 
-        float valor=0.7071067811865476;
+        float valor=$Cbrt_of01_02;
         registro *reg=cria_registro('B', 'C', "ARIT", 2, "1.0.0", "1.0.0", 'R');
 
       } cbrt_of01_02;
@@ -60,7 +60,7 @@ namespace WERTSFY
       typedef struct Const_cbrt_of01_04
       {
 
-        float valor=0.50000000000000;
+        float valor=$Cbrt_of01_04;
         registro *reg=cria_registro('B', 'C', "ARIT", 3, "1.0.0", "1.0.0", 'R');
 
       } cbrt_of01_04;
