@@ -4,7 +4,7 @@
 #include <cstdio>
 #include <cstdlib>
 
-#include "wcorebase.hpp"
+#include "bin/wcorebase.hpp"
 #include "waritmeticos.io.hpp"
 
 using namespace WERTSFY::COREBASE;
