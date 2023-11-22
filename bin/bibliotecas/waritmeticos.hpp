@@ -4,7 +4,7 @@
 #include <cstdio>
 #include <cstdlib>
 
-#include "bin/wcorebase.hpp"
+#include "wcorebase.hpp"
 #include "waritmeticos.io.hpp"
 
 using namespace WERTSFY::COREBASE;
@@ -68,7 +68,7 @@ namespace WERTSFY
       typedef struct Const_cbrt_of01_06
       {
 
-        float valor=0.408248290463863;
+        float valor=$Cbrt_of01_06;
         registro *reg=cria_registro('B', 'C', "ARIT", 4, "1.0.0", "1.0.0", 'R');
 
       } cbrt_of01_06;
@@ -76,7 +76,7 @@ namespace WERTSFY
       typedef struct Const_cbrt_of01_08
       {
 
-        float valor=0.3535533905932738;
+        float valor=$Cbrt_of01_08;
         registro *reg=cria_registro('B', 'C', "ARIT", 5, "1.0.0", "1.0.0", 'R');
 
       } cbrt_of01_08;
@@ -84,7 +84,7 @@ namespace WERTSFY
       typedef struct Const_cbrt_of01
       {
 
-        float valor=1.00000000000000;
+        float valor=$Cbrt_of01;
         registro *reg=cria_registro('B', 'C', "ARIT", 6, "1.0.0", "1.0.0", 'R');
 
       } cbrt_of01;
@@ -92,7 +92,7 @@ namespace WERTSFY
       typedef struct Const_cbrt_of02
       {
 
-        float valor=1.25992104989487;
+        float valor=$Cbrt_of02;
         registro *reg=cria_registro('B', 'C', "ARIT", 7, "1.0.0", "1.0.0", 'R');
 
       } cbrt_of02;
@@ -100,7 +100,7 @@ namespace WERTSFY
       typedef struct Const_cbrt_of03
       {
 
-        float valor=1.5874010519682;
+        float valor=$Cbrt_of03;
         registro *reg=cria_registro('B', 'C', "ARIT", 8, "1.0.0", "1.0.0", 'R');
 
       } cbrt_of03;

@@ -1,0 +1,6 @@
+#ifndef _CBRT_OF02_CNST_MDL_HPP_
+#define _CBRT_OF02_CNST_MDL_HPP_
+
+float $Cbrt_of02 = 1.25992104989487;
+
+#endif // _CBRT_OF02_CNST_MDL_HPP_

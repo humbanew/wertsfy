@@ -4,8 +4,8 @@
 
 #include "wconfig.hpp"
 #include "wcorebase.hpp"
-#include "waritmeticos.hpp"
-#include "wespectral.hpp"
+#include "bibliotecas/waritmeticos.hpp"
+#include "bibliotecas/wespectral.hpp"
 
 // prototipos de assinaturas de função
 void debug();
@@ -21,5 +21,6 @@ void debug()
 
   // Testando a função de criação de registro
   registro *r = cria_registro('B', 'C', "ARIT", 1, "1.0.0", "1.0.0", 'R');
+
 
 }
