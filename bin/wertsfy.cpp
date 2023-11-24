@@ -28,6 +28,8 @@ using namespace WERTSFY::COREBASE;
 
 static hashtable *ht_glossario_listas = cria_hashtable(100);
 
+struct Wertsfy_Components {};
+
 int main(void) 
 { return 0; }
 

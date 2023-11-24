@@ -1,0 +1,6 @@
+#ifndef _NEWTON_CNST_MDL_HPP_
+#define _NEWTON_CNST_MDL_HPP_
+
+float $Newton = 0.6931471805599453;
+
+#endif // _NEWTON_CNST_MDL_HPP_

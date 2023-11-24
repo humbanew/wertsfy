@@ -1,0 +1,6 @@
+#ifndef _PI_CNST_MDL_HPP_
+#define _PI_CNST_MDL_HPP_
+
+float $Pi = 3.1415926535897932384626433832795;
+
+#endif // _PI_CNST_MDL_HPP_

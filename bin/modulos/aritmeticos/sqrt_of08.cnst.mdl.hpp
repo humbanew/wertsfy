@@ -1,0 +1,6 @@
+#ifndef SQRT_OF08_CNST_MDL_HPP
+#define SQRT_OF08_CNST_MDL_HPP
+
+float $Sqrt_of08 = 2.82842712474619;
+
+#endif // SQRT_OF08_CNST_MDL_HPP

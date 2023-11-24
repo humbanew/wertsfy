@@ -1,7 +1,7 @@
 #ifndef _WARITMETICOS_IO_HPP_
 #define _WARITMETICOS_IO_HPP_
 
-
+  // Constantes
 #include "modulos/aritmeticos/avogadro.cnst.mdl.hpp"
 #include "modulos/aritmeticos/cbrt_of01_02.cnst.mdl.hpp"
 #include "modulos/aritmeticos/cbrt_of01_04.cnst.mdl.hpp"
@@ -10,7 +10,42 @@
 #include "modulos/aritmeticos/cbrt_of01.cnst.mdl.hpp"
 #include "modulos/aritmeticos/cbrt_of02.cnst.mdl.hpp"
 #include "modulos/aritmeticos/cbrt_of03.cnst.mdl.hpp"
+#include "modulos/aritmeticos/cbrt_of04.cnst.mdl.hpp"
+#include "modulos/aritmeticos/cbrt_of05.cnst.mdl.hpp"
+#include "modulos/aritmeticos/cbrt_of06.cnst.mdl.hpp"
+#include "modulos/aritmeticos/cbrt_of07.cnst.mdl.hpp"
+#include "modulos/aritmeticos/cbrt_of08.cnst.mdl.hpp"
+#include "modulos/aritmeticos/cbrt_of09.cnst.mdl.hpp"
+#include "modulos/aritmeticos/cbrt_of10.cnst.mdl.hpp"
+#include "modulos/aritmeticos/coulomb.cnst.mdl.hpp"
+#include "modulos/aritmeticos/euler.cnst.mdl.hpp"
+#include "modulos/aritmeticos/euler2.cnst.mdl.hpp"
+#include "modulos/aritmeticos/logarithm2.cnst.mdl.hpp"
+#include "modulos/aritmeticos/logarithm2e.cnst.mdl.hpp"
+#include "modulos/aritmeticos/logarithm10.cnst.mdl.hpp"
+#include "modulos/aritmeticos/logarithm10e.cnst.mdl.hpp"
+#include "modulos/aritmeticos/max_value.cnst.mdl.hpp"
+#include "modulos/aritmeticos/min_value.cnst.mdl.hpp"
+#include "modulos/aritmeticos/newton.cnst.mdl.hpp"
+#include "modulos/aritmeticos/pi.cnst.mdl.hpp"
+#include "modulos/aritmeticos/plank.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of01_02.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of01_04.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of01_06.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of01_08.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of01.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of02.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of03.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of04.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of05.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of06.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of07.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of08.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of09.cnst.mdl.hpp"
+#include "modulos/aritmeticos/sqrt_of10.cnst.mdl.hpp"
+#include "modulos/aritmeticos/tesla.cnst.mdl.hpp"
 
+  // Métodos
 #include "modulos/aritmeticos/absoluto.mtd.mdl.hpp"
 
 

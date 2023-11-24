@@ -1,0 +1,6 @@
+#ifndef _EULER2_CNST_MDL_HPP_
+#define _EULER2_CNST_MDL_HPP_
+
+float $Euler2 = 7.38905609893065;
+
+#endif // _EULER2_CNST_MDL_HPP_

@@ -1,0 +1,6 @@
+#ifndef SQRT_OF01_CNST_MDL_HPP
+#define SQRT_OF01_CNST_MDL_HPP
+
+float $Sqrt_of01 = 1.00000000000;
+
+#endif // SQRT_OF01_CNST_MDL_HPP

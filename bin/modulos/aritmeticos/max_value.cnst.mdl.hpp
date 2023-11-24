@@ -1,0 +1,6 @@
+#ifndef _MAXVALUE_CNST_MDL_HPP_
+#define _MAXVALUE_CNST_MDL_HPP_
+
+float $Max_value = 9999999999999999999999;
+
+#endif // _MAXVALUE_CNST_MDL_HPP_

@@ -1,0 +1,6 @@
+#ifndef _MINVALUE_CNST_MDL_HPP_
+#define _MINVALUE_CNST_MDL_HPP_
+
+float $Min_value = -9999999999999999999999;
+
+#endif // _MINVALUE_CNST_MDL_HPP_
