@@ -1,5 +1,6 @@
 #include <cstdio>
 #include <cstdlib>
+#include <time.h>
 
 #include "wconfig.hpp"
 #include "wcorebase.hpp"
@@ -31,7 +32,13 @@ static hashtable *ht_glossario_listas = cria_hashtable(100);
 struct Wertsfy_Components {};
 
 int main(void) 
-{ return 0; }
+{ 
+  // Contagem do tempo
+  clock_t t;
+  t = clock();
+
+  return 0; 
+}
 
 void ui0() { } 
   void ui1() { }

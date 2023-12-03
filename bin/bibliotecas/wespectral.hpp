@@ -17,10 +17,14 @@ namespace WERTSFY
       class Props
       {
         
-        protected: void registros() { };
-        protected: bool biblioteca_ativada = false;
+        protected: 
+          void registros() { };
+          bool biblioteca_ativada = false;
 
-        public:
+        public: 
+          template <typename T=int , typename K=regex , typename Y=char*>
+          struct Model{ T id; K check_cor; Y coloracao; }; 
+
           bool getIsBibliotecaAtivada() 
           { 
             return this->biblioteca_ativada;
@@ -31,6 +35,15 @@ namespace WERTSFY
             this->biblioteca_ativada = bib_ativ;
           }
 
+      };
+
+      int a()
+      {
+
+        Props::Model<int, char*> modelo;
+        modelo.id = 1;
+        modelo.coloracao = "\033[0;5;255;255;255m";
+        
       };
 
       typedef struct OFC_COLORS { 

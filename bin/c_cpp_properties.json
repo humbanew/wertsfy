@@ -1,0 +1,19 @@
+{
+  "configurations": 
+  [
+    {
+      "name": "WertsfySets",
+      "cStandard": "c23",
+      "cppStandard": "c++23",
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "includePath": [
+        "."
+      ]
+    }
+  ],
+  "version": 0
+}

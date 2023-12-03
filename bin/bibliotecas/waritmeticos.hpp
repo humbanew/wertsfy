@@ -24,7 +24,9 @@ namespace WERTSFY
       class Props
       {
         
-        protected: bool biblioteca_ativada = false;
+        protected: 
+          void registros() { };
+          bool biblioteca_ativada = false;
 
         public:
           bool getIsBibliotecaAtivada() 
@@ -36,8 +38,6 @@ namespace WERTSFY
           {
             this->biblioteca_ativada = bib_ativ;
           }
-
-          // this->registros();
 
       };
     
