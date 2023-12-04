@@ -1,1 +1,0 @@
-#### Arquivos de Changelog serão atualizados em breve.

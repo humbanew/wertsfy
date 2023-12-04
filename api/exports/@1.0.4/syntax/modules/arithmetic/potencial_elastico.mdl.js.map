@@ -1,1 +1,0 @@
-{"version":3,"file":"potencial_elastico.mdl.js","sourceRoot":"","sources":["potencial_elastico.mdl.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,wBAAwB,EAAE,MAAM,kCAAkC,CAAC;AAE5E,MAAM,CAAC,IAAI,iBAAiB,GAAG,CAAC,iBAAyB,EAAE,SAA2C,EAAU,EAAE;IAChH,OAAO,wBAAwB,CAAC,iBAAiB,EAAE,SAAS,CAAC,CAAC;AAChE,CAAC,CAAC"}

@@ -1,2 +1,0 @@
-export declare var equacaoHorariaDoEspacoMCUV: (posicaoAngularInicial: number, velocidadeAngularInicial: number, aceleracaoAngular: number, tempo: number) => number;
-//# sourceMappingURL=equacao_horaria_espaco_mcuv.mdl.d.ts.map
