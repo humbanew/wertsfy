@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@expo/cli": "^0.10.16",
     "expo": "^48.0.21",
-    "expo-cli": "^6.3.10",
     "react": "^18.2.0",
     "react-cli": "^0.3.1",
     "react-dom": "^18.2.0",
