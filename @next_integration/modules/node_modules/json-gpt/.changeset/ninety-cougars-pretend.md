@@ -1,5 +1,0 @@
----
-"json-gpt": patch
----
-
-dotenv
