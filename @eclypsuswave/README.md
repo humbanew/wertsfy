@@ -1,4 +1,4 @@
-# binary-eclypsuswave
+# subproject-eclypsuswave
 
 <div align="center">
 
