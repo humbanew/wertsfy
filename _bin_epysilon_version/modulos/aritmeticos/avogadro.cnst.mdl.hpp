@@ -1,6 +1,0 @@
-#ifndef _WARIT_AVAGADRO_CNST_MDL_HPP_
-#define _WARIT_AVAGADRO_CNST_MDL_HPP_
-
-float $Avogadro = 6.022140857e23;
-
-#endif // _WARIT_AVAGADRO_CNST_MDL_HPP_

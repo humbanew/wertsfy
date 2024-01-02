@@ -1,6 +1,0 @@
-#ifndef SQRT_OF09_CNST_MDL_HPP
-#define SQRT_OF09_CNST_MDL_HPP
-
-float $Sqrt_of09 = 3.00000000000000;
-
-#endif // SQRT_OF09_CNST_MDL_HPP

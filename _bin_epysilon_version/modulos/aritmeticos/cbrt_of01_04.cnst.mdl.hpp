@@ -1,6 +1,0 @@
-#ifndef _CBRT_OF01_04_CNST_MDL_HPP_
-#define _CBRT_OF01_04_CNST_MDL_HPP_
-
-float $Cbrt_of01_04 = 0.50000000000000;
-
-#endif // _CBRT_OF01_04_CNST_MDL_HPP_

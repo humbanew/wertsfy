@@ -1,6 +1,0 @@
-#ifndef _LOGARITHM2_CNST_MDL_HPP_
-#define _LOGARITHM2_CNST_MDL_HPP_
-
-float $Logarithm2 = 0.6931471805599453;
-
-#endif // _LOGARITHM2_CNST_MDL_HPP_
