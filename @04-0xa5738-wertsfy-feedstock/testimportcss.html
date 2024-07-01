@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="autoload">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<script>
+  let myAutoload = document.getElementById("autoload");
+  let createLinkCss = (hRef = "") => { 
+    let element = document.createElement("link"); 
+    element.rel="stylesheet";
+    element.href=hRef;
+    return element; 
+  }
+  myAutoload.append(createLinkCss("styles.css"));   
+  myAutoload.append(createLinkCss("modelo.css")); 
+</script>
+
+<body></body>
+
+</html>
