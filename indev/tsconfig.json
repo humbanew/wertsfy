@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleDetection": "auto",
+    "moduleResolution": "NodeNext",
+    "incremental": true,
+    "newLine": "lf",
+    "inlineSources": true,
+    "inlineSourceMap": true,
+    "rootDir": "./",
+    "outDir": "dist",
+    "diagnostics": true,
+    "extendedDiagnostics": true,
+    "isolatedModules": true,
+    "importHelpers": true
+  },
+  "exclude": [
+    "node_modules",
+  ],
+  "buildOptions": {
+    "verbose": true,
+    "incremental": false,
+    "traceResolution": true
+  },
+  "compileOnSave": true,
+}
