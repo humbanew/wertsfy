@@ -1,0 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FragmentComuns = void 0;
+const Comuns_class_1 = require("./Comuns.class");
+exports.FragmentComuns = Comuns_class_1.Comuns.prototype;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBQSxpREFBd0M7QUFFM0IsUUFBQSxjQUFjLEdBQUcscUJBQU0sQ0FBQyxTQUFTLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb211bnMgfSBmcm9tIFwiLi9Db211bnMuY2xhc3NcIjtcclxuXHJcbmV4cG9ydCBjb25zdCBGcmFnbWVudENvbXVucyA9IENvbXVucy5wcm90b3R5cGU7XHJcbiJdfQ==

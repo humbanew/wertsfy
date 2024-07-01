@@ -1,0 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FragmentSupremos = void 0;
+const Supremos_class_1 = require("./Supremos.class");
+exports.FragmentSupremos = Supremos_class_1.Supremos.prototype;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBQSxxREFBNEM7QUFFL0IsUUFBQSxnQkFBZ0IsR0FBRyx5QkFBUSxDQUFDLFNBQVMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFN1cHJlbW9zIH0gZnJvbSBcIi4vU3VwcmVtb3MuY2xhc3NcIjtcclxuXHJcbmV4cG9ydCBjb25zdCBGcmFnbWVudFN1cHJlbW9zID0gU3VwcmVtb3MucHJvdG90eXBlO1xyXG4iXX0=

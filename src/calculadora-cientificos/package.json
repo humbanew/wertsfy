@@ -1,0 +1,25 @@
+{
+  "name": "@humbanew/ftl-calc-cientificos",
+  "version": "0.0.1-5",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc --outDir ../dist-hnfragments",
+    "transform": "tsc"
+  },
+  "exports": {
+    "./js": "./dist/index.js",
+    "./ts": "./index.ts"
+  },
+  "keywords": [],
+  "author": "humbanew",
+  "repository": "https://github.com/humbanew/wertsfy-packages.git",
+  "license": "MIT License adapted by Humbanew, described as HN License v5",
+  "description": "Humbanew Fragments - Calculadora Científicos - Tipo Lógico",
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}

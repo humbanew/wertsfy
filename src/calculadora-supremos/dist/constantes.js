@@ -1,0 +1,32 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SQRT_06 = exports.SQRT_05 = exports.SQRT_04 = exports.SQRT_03 = exports.SQRT_02 = exports.SQRT_01 = exports.PI = void 0;
+/**
+ * Constante de Pi
+ */
+exports.PI = 3.141592;
+/**
+ * Módulo da Constante da Raiz Quadrada de 1
+ */
+exports.SQRT_01 = 1.000000;
+/**
+ * Módulo da Constante da Raiz Quadrada de 2
+ */
+exports.SQRT_02 = 1.414213;
+/**
+ * Módulo da Constante da Raiz Quadrada de 3
+ */
+exports.SQRT_03 = 1.732050;
+/**
+ * Módulo da Constante da Raiz Quadrada de 4
+ */
+exports.SQRT_04 = 2.000000;
+/**
+ * Módulo da Constante da Raiz Quadrada de 5
+ */
+exports.SQRT_05 = 2.236067;
+/**
+ * Módulo da Constante da Raiz Quadrada de 6
+ */
+exports.SQRT_06 = 2.449489;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uc3RhbnRlcy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2NvbnN0YW50ZXMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQUE7O0dBRUc7QUFDUSxRQUFBLEVBQUUsR0FBVyxRQUFRLENBQUM7QUFFakM7O0dBRUc7QUFDUSxRQUFBLE9BQU8sR0FBVyxRQUFRLENBQUM7QUFFdEM7O0dBRUc7QUFDUSxRQUFBLE9BQU8sR0FBVyxRQUFRLENBQUM7QUFFdEM7O0dBRUc7QUFDUSxRQUFBLE9BQU8sR0FBVyxRQUFRLENBQUM7QUFFdEM7O0dBRUc7QUFDUSxRQUFBLE9BQU8sR0FBVyxRQUFRLENBQUM7QUFFdEM7O0dBRUc7QUFDUSxRQUFBLE9BQU8sR0FBVyxRQUFRLENBQUM7QUFFdEM7O0dBRUc7QUFDUSxRQUFBLE9BQU8sR0FBVyxRQUFRLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcclxuICogQ29uc3RhbnRlIGRlIFBpXHJcbiAqL1xyXG5leHBvcnQgdmFyIFBJOiBudW1iZXIgPSAzLjE0MTU5MjtcclxuXHJcbi8qKlxyXG4gKiBNw7NkdWxvIGRhIENvbnN0YW50ZSBkYSBSYWl6IFF1YWRyYWRhIGRlIDFcclxuICovXHJcbmV4cG9ydCB2YXIgU1FSVF8wMTogbnVtYmVyID0gMS4wMDAwMDA7XHJcblxyXG4vKipcclxuICogTcOzZHVsbyBkYSBDb25zdGFudGUgZGEgUmFpeiBRdWFkcmFkYSBkZSAyXHJcbiAqL1xyXG5leHBvcnQgdmFyIFNRUlRfMDI6IG51bWJlciA9IDEuNDE0MjEzO1xyXG5cclxuLyoqXHJcbiAqIE3Ds2R1bG8gZGEgQ29uc3RhbnRlIGRhIFJhaXogUXVhZHJhZGEgZGUgM1xyXG4gKi9cclxuZXhwb3J0IHZhciBTUVJUXzAzOiBudW1iZXIgPSAxLjczMjA1MDtcclxuXHJcbi8qKlxyXG4gKiBNw7NkdWxvIGRhIENvbnN0YW50ZSBkYSBSYWl6IFF1YWRyYWRhIGRlIDRcclxuICovXHJcbmV4cG9ydCB2YXIgU1FSVF8wNDogbnVtYmVyID0gMi4wMDAwMDA7XHJcblxyXG4vKipcclxuICogTcOzZHVsbyBkYSBDb25zdGFudGUgZGEgUmFpeiBRdWFkcmFkYSBkZSA1XHJcbiAqL1xyXG5leHBvcnQgdmFyIFNRUlRfMDU6IG51bWJlciA9IDIuMjM2MDY3O1xyXG5cclxuLyoqXHJcbiAqIE3Ds2R1bG8gZGEgQ29uc3RhbnRlIGRhIFJhaXogUXVhZHJhZGEgZGUgNlxyXG4gKi9cclxuZXhwb3J0IHZhciBTUVJUXzA2OiBudW1iZXIgPSAyLjQ0OTQ4OTtcclxuIl19

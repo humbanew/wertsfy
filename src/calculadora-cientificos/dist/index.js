@@ -1,0 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FragmentCientificos = void 0;
+const Cientificos_class_1 = require("./Cientificos.class");
+exports.FragmentCientificos = Cientificos_class_1.Cientificos.prototype;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBQSwyREFBa0Q7QUFFckMsUUFBQSxtQkFBbUIsR0FBRywrQkFBVyxDQUFDLFNBQVMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENpZW50aWZpY29zIH0gZnJvbSBcIi4vQ2llbnRpZmljb3MuY2xhc3NcIjtcclxuXHJcbmV4cG9ydCBjb25zdCBGcmFnbWVudENpZW50aWZpY29zID0gQ2llbnRpZmljb3MucHJvdG90eXBlO1xyXG4iXX0=
