@@ -1,5 +1,5 @@
 {
-  "name": "@humbanew/calculadora-rax",
+  "name": "@humbanew/raxcalc",
   "version": "0.0.1-indev",
   "scripts": {
     "-c": "tsc index.ts",
@@ -15,6 +15,7 @@
   "description": "Humbanew Calculadora Rax",
   "dependencies": {
     "@types/node": "^22.7.5",
+    "fs": "^0.0.1-security",
     "typescript": "^5.6.3"
   }
 }

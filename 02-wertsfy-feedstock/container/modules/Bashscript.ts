@@ -18,7 +18,7 @@ export default class Bashscript {
     if (n >= 0 && n <= 255) {
       return n;
     }
-    console.error("\x1b[34mValores de 3 ou 4 bits fora do intervalo permitido.");
+    console.error("\x1b[34mValores de 3/4 bits fora do intervalo permitido.");
     return 0;
   }
 

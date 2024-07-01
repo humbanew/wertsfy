@@ -1,0 +1,10 @@
+{
+  "nome-exibicao": "Rax Calc",
+  "versao": "0.0.1-indev",
+  "distribuidor": "Humbanew Project\\©️",
+  "configuracoes": {
+    "espacos-de-memoria": 5,
+    "historico": 100,
+    "modulos": [{}]
+  }
+}
