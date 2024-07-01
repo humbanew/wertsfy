@@ -1,1 +1,0 @@
-# Funcionalidades Essenciais

@@ -1,6 +1,7 @@
 {
-  "name": "@humbanew/raxcalc",
-  "version": "0.0.1-indev",
+  "name": "raxcalc",
+  "version": "0.0.1",
+  "main": "index.js",
   "scripts": {
     "-c": "tsc index.ts",
     "-r": "ts-node index.ts"
@@ -14,8 +15,10 @@
   "license": "MIT License adapted by Humbanew, described as HN License v5",
   "description": "Humbanew Calculadora Rax",
   "dependencies": {
-    "@types/node": "^22.7.5",
+    "@types/node": "^22.7.6",
     "fs": "^0.0.1-security",
+    "jasmine": "^5.4.0",
+    "mocha": "^10.7.3",
     "typescript": "^5.6.3"
   }
 }
