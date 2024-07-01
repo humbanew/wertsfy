@@ -1,1 +1,0 @@
-const calculadora_indev = {};
