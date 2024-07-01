@@ -1,6 +1,6 @@
 {
   "name": "@humbanew/ftl-calc-cientificos",
-  "version": "0.0.1-5",
+  "version": "0.0.1-6",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc --outDir ../dist-hnfragments",
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "humbanew",
-  "repository": "https://github.com/humbanew/wertsfy-packages.git",
+  "repository": "https://github.com/humbanew/packages.git",
   "license": "MIT License adapted by Humbanew, described as HN License v5",
   "description": "Humbanew Fragments - Calculadora Científicos - Tipo Lógico",
   "dependencies": {
