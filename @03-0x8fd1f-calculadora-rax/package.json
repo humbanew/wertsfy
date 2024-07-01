@@ -1,13 +1,17 @@
 {
-  "name": "calculadora-rax",
+  "name": "@humbanew/calculadora-rax",
   "version": "0.0.1-indev",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "exports": {
+    "./ts": "./index.ts"
+  },
+  "keywords": [],
+  "author": "humbanew",
+  "repository": "https://github.com/humbanew/packages.git",
+  "license": "MIT License adapted by Humbanew, described as HN License v5",
+  "description": "Humbanew Calculadora Rax",
   "dependencies": {
     "typescript": "^5.6.3"
   }
