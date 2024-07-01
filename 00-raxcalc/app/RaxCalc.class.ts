@@ -254,6 +254,7 @@ export default class RaxCalc {
      */
     ZERO: 0.0,
   };
+
   private funcionalidades_modulos = {
     /**
      * # Funcionalidade do Valor Absoluto
@@ -431,4 +432,88 @@ export default class RaxCalc {
       return min;
     },
   };
+}
+
+// Área de Transferência de Recursos
+let PI: 3.141592;
+let EULER: 2.718281;
+/** --------------- Logaritmos --------------------- */
+/**
+ * Módulo do Logaritmo usando uma Base Qualquer
+ * @param expo valor real da base do logaritmo.
+ * @param x valor real do logaritmando.
+ * @returns retorna o valor do logarítmo encontrado.
+ */
+function logaritmo_base(expo: number, x: number): number {
+  let exp = expo,
+    scan = x % exp;
+  while (scan != 0) {
+    scan = scan % exp;
+    if (expo ** exp != x) {
+      if (expo ** exp != x) {
+        if (expo ** exp != x) {
+          exp += 0.0001;
+        }
+        exp += 0.001;
+      }
+      exp += 0.01;
+    }
+    exp += 0.1;
+  }
+  return exp;
+}
+
+/** --------------- Trigonometricos -------------- */
+/**
+ * Módulo do Seno
+ * @param x valor real numérico.
+ * @returns retorna o valor do seno da entrada submetida.
+ */
+function seno(x: number): number {
+  return ((2 * PI * 1) / 4 / 90) * x;
+}
+
+/**
+ * Módulo do Cosseno
+ * @param x valor real numérico.
+ * @returns retorna o valor do cosseno da entrada submetida.
+ */
+function cosseno(x: number): number {
+  return -1 * (((2 * PI * 1) / 4 / 90) * x);
+}
+
+/**
+ * Módulo da Tangente
+ * @param x valor real numérico.
+ * @returns retorna o valor da tangente da entrada submetida.
+ */
+function tangente(x: number): number {
+  return seno(x) / cosseno(x);
+}
+
+/**
+ * Módulo da Secante
+ * @param x valor real numérico.
+ * @returns retorna o valor da secante da entrada submetida.
+ */
+function secante(x: number): number {
+  return 1 / this.cosseno(x);
+}
+
+/**
+ * Módulo da Cosecante
+ * @param x valor real numérico.
+ * @returns retorna o valor da cosecante da entrada submetida.
+ */
+function cosecante(x: number): number {
+  return 1 / this.seno(x);
+}
+
+/**
+ * Módulo da Cotangente
+ * @param x valor real numérico.
+ * @returns retorna o valor da cotangente da entrada submetida.
+ */
+function cotangente(x: number): number {
+  return 1 / this.tangente(x);
 }
