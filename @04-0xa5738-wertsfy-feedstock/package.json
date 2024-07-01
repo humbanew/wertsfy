@@ -9,27 +9,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/dockerode": "^3.3.31",
+    "@types/mysql": "^2.15.26",
+    "@types/node": "^22.7.5",
     "discord.js": "^14.15.3",
     "dockerode": "^4.0.2",
     "fs": "^0.0.1-security",
-    "ioredis": "^5.4.1",
-    "mariadb": "^3.3.1",
     "mongodb": "^6.8.0",
     "mysql": "^2.18.1",
-    "node-gyp": "^10.2.0",
-    "nosql": "^6.1.0",
-    "oracledb": "^6.6.0",
     "path": "^0.12.7",
     "postgres": "^3.4.4",
-    "redis": "^4.7.0",
     "roblox-ts": "^2.3.0",
     "sqlite3": "^5.1.7",
     "typescript": "^5.5.3"
-  },
-  "devDependencies": {
-    "@types/dockerode": "^3.3.31",
-    "@types/mysql": "^2.15.26",
-    "@types/node": "^22.0.0",
-    "@types/oracledb": "^6.5.1"
   }
 }
