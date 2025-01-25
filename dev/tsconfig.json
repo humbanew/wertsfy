@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "module": "NodeNext",
+        "moduleDetection": "auto",
+        "moduleResolution": "nodenext",
+        "resolveJsonModule": true,
+        "target": "ES5",
+        "rootDir": "./",
+        "outDir": "./out/"
+    },
+    "buildOptions": {
+        "dry": false,
+        "incremental": false,
+        "traceResolution": false,
+        "verbose": false
+    },
+    "compileOnSave": true
+}
