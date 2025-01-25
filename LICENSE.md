@@ -1,6 +1,6 @@
 <div align="center">
 
-  ![Cabeçalho LICENSE md](https://github.com/humbanew/hn-license/assets/59739253/345f0937-38ee-47b7-a787-a550fa2b5bee)
+  ![Cabeçalho LICENSE md](https://github.com/humbanew/hn-license/blob/main/assets/cabecalho-LICENSE.md-v5.svg)
 
 </div>
 
