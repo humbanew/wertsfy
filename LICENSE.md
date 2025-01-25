@@ -6,7 +6,7 @@
 
 MIT License "adapted"
 
-Copyright (c) 2015-2024 Humbanew Project
+Copyright (c) 2015-2025 Humbanew Project
 
 ## A. Global Terms by MIT License
 
